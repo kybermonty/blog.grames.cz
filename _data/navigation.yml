@@ -1,14 +1,10 @@
-main:
-  - title: "O mně"
-    url: "https://martin.grames.cz/"
-
 home-sidebar:
   - title: "Kategorie"
-    url: "/categories/"
+    url: "/kategorie/"
     children:
       - title: "IoT - BigClown"
-        url: "/categories/bigclown/"
+        url: "/kategorie/bigclown/"
       - title: "IoT - ESP8266"
-        url: "/categories/esp8266/"
+        url: "/kategorie/esp8266/"
   - title: "Archiv článků"
-    url: "/year-archive/"
+    url: "/archiv/"

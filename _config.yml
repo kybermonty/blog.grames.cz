@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Theme Settings
-theme                    : "minimal-mistakes-jekyll"
+#theme                    : "minimal-mistakes-jekyll"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -230,10 +230,10 @@ whitelist:
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: jekyll-archives
-  path: /categories/
+  path: /kategorie/
 tag_archive:
   type: jekyll-archives
-  path: /tags/
+  path: /tagy/
 jekyll-archives:
   enabled:
     - categories
@@ -242,8 +242,8 @@ jekyll-archives:
     category: archive-taxonomy
     tag: archive-taxonomy
   permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+    category: /kategorie/:name/
+    tag: /tagy/:name/
 
 # HTML Compression
 # - http://jch.penibelst.de/
