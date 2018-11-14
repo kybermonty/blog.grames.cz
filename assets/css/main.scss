@@ -64,11 +64,13 @@ html {
 }
 
 // pad heading and sidebar
+/*
 #site-nav, .sidebar {
   @include breakpoint($large) {
     padding-left: 20px;
   }
 }
+*/
 
 // adjust left/right sidebar and page position on x-large
 .sidebar{

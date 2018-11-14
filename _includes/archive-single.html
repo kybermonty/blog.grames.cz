@@ -32,9 +32,9 @@
     </h2>
     <p class="page__meta">
       {% if post.date %}
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time> &nbsp;&nbsp;&nbsp;
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d. %-m. %Y" }}</time> &nbsp;&nbsp;&nbsp;
       {% endif %}
-      {% if post.read_time %}
+      {% if post.read_time and include.type != "grid" %}
         <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %} &nbsp;&nbsp;&nbsp;
       {% endif %}
     </p>
