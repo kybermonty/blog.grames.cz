@@ -40,8 +40,6 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-archives (2.1.1)
       jekyll (>= 2.4)
-    jekyll-data (1.0.0)
-      jekyll (~> 3.3)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
     jekyll-gist (1.5.0)
@@ -67,14 +65,6 @@ GEM
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
     mini_portile2 (2.3.0)
-    minimal-mistakes-jekyll (4.13.0)
-      jekyll (~> 3.7)
-      jekyll-data (~> 1.0)
-      jekyll-feed (~> 0.10)
-      jekyll-gist (~> 1.5)
-      jekyll-paginate (~> 1.1)
-      jekyll-sitemap (~> 1.2)
-      jemoji (~> 0.10)
     minitest (5.11.3)
     multipart-post (2.0.0)
     nokogiri (1.8.5)
@@ -108,8 +98,12 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.5)
   jekyll-archives
+  jekyll-feed
+  jekyll-gist
   jekyll-include-cache
-  minimal-mistakes-jekyll
+  jekyll-paginate
+  jekyll-sitemap
+  jemoji
 
 BUNDLED WITH
    1.17.1
