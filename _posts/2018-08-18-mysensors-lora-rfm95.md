@@ -4,7 +4,7 @@ title:  "MySensors s LoRa (RFM95)"
 date:   2018-08-18 17:50
 categories: iot esp8266
 ---
-Stejné zařízení jako pro [LoRaWAN single-channel gateway](lorawan-single-channel-gateway.md) lze použít v síti [MySensors](https://www.mysensors.org/) pro gateway i node. Využívá se tak technologie LoRa a lze dosáhnout velkých vzdáleností jako v síti LoRaWAN.
+Stejné zařízení jako pro [LoRaWAN single-channel gateway]({% post_url 2018-07-27-lorawan-single-channel-gateway %}) lze použít v síti [MySensors](https://www.mysensors.org/) pro gateway i node. Využívá se tak technologie LoRa a lze dosáhnout velkých vzdáleností jako v síti LoRaWAN.
 Výhoda tohoto řešení je, že nemusíte porušovat specifikaci sítě LoRaWAN kvůli omezení na jeden kanál a jednotlivé zprávy lze navíc šifrovat.
 
 ```cpp
