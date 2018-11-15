@@ -1,38 +1,35 @@
-<?
-  $titulek = "Modemisti u Firefox nepustí";
-  include '../hlavicka.php';
-?>
-<h1>Èlánky - Modemisti u Firefox nepustí</h1><br />
-S nainstalovanım rozšíøením Slogger mùete na internetu ušetøit, protoe u
-nemusíte proèítat dlouhé texty online nebo èekat a se stránka uloí (platí zejména
-u Internet Exploreru, kdy èekáte i pùl minuty ne se stránka ráèí uloit).<br />
-Pouívám dial-up (vytáèené pøipojení) a vdycky mi vadilo, e se spousta zajímavıch
-stránek neukládala a nebyla dostupná offline. Nyní u se o nic nestarám a klidnì
-si po naètení mùu hned stránku zavøít a pøeèíst ji a v klidu, kdy u mì netlaèí
-èas a nic neplatím.
-<br /><br />
-<h2>Pouití v praxi</h2>
-Po nainstalování rozšíøení staèí kliknout na Zobrazit - Nástrojové lišty - Vlastní...
-a pøetáhnout ikonu "Slogger" na nástrojovou lištu. V kontextovém menu tlaèítka
-vyberte volbu "Automaticky zaznamenat kadou stránku" a v nastavení vyberte
-adresáø, kde se všechny data budou ukládat. Kdy se pøipojíte k internetu, tak
-u jen kliknete na tlaèítko Sloggeru, šipka zèervená a máte vyhráno.
-<br /><br />
-A si budete chtít proèíst vše, co jste prosurfovali, staèí v kontextovém menu
-tlaèítka vybrat "Otevøít adresáø Sloggeru" a zobrazí se vám pøehlednı seznam
-všech navštívenıch stránek s uvedením titulku stránky, adresy a odkazu na lokální
+---
+layout: single
+title:  "Modemisti uÅ¾ Firefox nepustÃ­"
+date:   2005-07-03
+---
+S nainstalovanÃ½m rozÅ¡Ã­Å™enÃ­m Slogger mÅ¯Å¾ete na internetu uÅ¡etÅ™it, protoÅ¾e uÅ¾
+nemusÃ­te proÄÃ­tat dlouhÃ© texty online nebo Äekat aÅ¾ se strÃ¡nka uloÅ¾Ã­ (platÃ­ zejmÃ©na
+u Internet Exploreru, kdy ÄekÃ¡te i pÅ¯l minuty neÅ¾ se strÃ¡nka rÃ¡ÄÃ­ uloÅ¾it).
+
+PouÅ¾Ã­vÃ¡m dial-up (vytÃ¡ÄenÃ© pÅ™ipojenÃ­) a vÅ¾dycky mi vadilo, Å¾e se spousta zajÃ­mavÃ½ch
+strÃ¡nek neuklÃ¡dala a nebyla dostupnÃ¡ offline. NynÃ­ uÅ¾ se o nic nestarÃ¡m a klidnÄ›
+si po naÄtenÃ­ mÅ¯Å¾u hned strÃ¡nku zavÅ™Ã­t a pÅ™eÄÃ­st ji aÅ¾ v klidu, kdy uÅ¾ mÄ› netlaÄÃ­
+Äas a nic neplatÃ­m.
+
+## PouÅ¾itÃ­ v praxi
+
+Po nainstalovÃ¡nÃ­ rozÅ¡Ã­Å™enÃ­ staÄÃ­ kliknout na Zobrazit - NÃ¡strojovÃ© liÅ¡ty - VlastnÃ­...
+a pÅ™etÃ¡hnout ikonu "Slogger" na nÃ¡strojovou liÅ¡tu. V kontextovÃ©m menu tlaÄÃ­tka
+vyberte volbu "Automaticky zaznamenat kaÅ¾dou strÃ¡nku" a v nastavenÃ­ vyberte
+adresÃ¡Å™, kde se vÅ¡echny data budou uklÃ¡dat. KdyÅ¾ se pÅ™ipojÃ­te k internetu, tak
+uÅ¾ jen kliknete na tlaÄÃ­tko Sloggeru, Å¡ipka zÄervenÃ¡ a mÃ¡te vyhrÃ¡no.
+
+AÅ¾ si budete chtÃ­t proÄÃ­st vÅ¡e, co jste prosurfovali, staÄÃ­ v kontextovÃ©m menu
+tlaÄÃ­tka vybrat "OtevÅ™Ã­t adresÃ¡Å™ Sloggeru" a zobrazÃ­ se vÃ¡m pÅ™ehlednÃ½ seznam
+vÅ¡ech navÅ¡tÃ­venÃ½ch strÃ¡nek s uvedenÃ­m titulku strÃ¡nky, adresy a odkazu na lokÃ¡lnÃ­
 kopii.
-<br /><br />
-Ještì malı tip - v nastavení na kartì Filtry do kolonky se sekundami si nastavte
-alespoò 3600, jinak se bude stejná stránka ukládat nìkolikrát za sebou.
-<br /><br />
-<h2>Outbox - bonus do pošáka pro lidi s dial-upem</h2>
-Pøeloil jsem taky toto malé rozšíøení do Thunderbirdu, které pøidává na lištu
-tlaèítko Odeslat/Pøijmout a v oknì s novou zprávou pøibude tlaèítko Odeslat pozdìji.
-Jsou to jen dvì tlaèítka, ale èlovìku to strašnì zlehèí ivot.
-<br /><br />
-U jen zbıvá dodat, e obì rozšíøení najdete na
-<a href="../mozilla/">www.martingrames.net/mozilla/</a>
-<?
-  include '../paticka.php';
-?>
+
+JeÅ¡tÄ› malÃ½ tip - v nastavenÃ­ na kartÄ› Filtry do kolonky se sekundami si nastavte
+alespoÅˆ 3600, jinak se bude stejnÃ¡ strÃ¡nka uklÃ¡dat nÄ›kolikrÃ¡t za sebou.
+
+## Outbox - bonus do poÅ¡Å¥Ã¡ka pro lidi s dial-upem
+
+PÅ™eloÅ¾il jsem taky toto malÃ© rozÅ¡Ã­Å™enÃ­ do Thunderbirdu, kterÃ© pÅ™idÃ¡vÃ¡ na liÅ¡tu
+tlaÄÃ­tko Odeslat/PÅ™ijmout a v oknÄ› s novou zprÃ¡vou pÅ™ibude tlaÄÃ­tko Odeslat pozdÄ›ji.
+Jsou to jen dvÄ› tlaÄÃ­tka, ale ÄlovÄ›ku to straÅ¡nÄ› zlehÄÃ­ Å¾ivot.

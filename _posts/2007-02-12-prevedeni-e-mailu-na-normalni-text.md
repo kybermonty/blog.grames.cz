@@ -1,8 +1,8 @@
-2007-02-12-prevedeni-e-mailu-na-normalni-text
-
-(11, 'prevedeni-e-mailu-na-normalni-text', '2007-02-12 20:44:47',
-'Převedení e-mailu (*.eml) na normální text',
-
+---
+layout: single
+title:  "Převedení e-mailu (*.eml) na normální text"
+date:   2007-02-12 20:44:47
+---
 V programu Kecal je implementována funkce pro posílání záznamu rozhovorů přímo
 mě na e-mail. Je to pro analýzu rozhovorů několika lidí s tímto programem
 a následné vyhodnocení, jaké věty mu uživatelé nejčastěji píšou, čemu nejvíc nerozumí

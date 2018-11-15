@@ -1,13 +1,14 @@
-2007-07-29-hackerem-sam-sobe-2-xss
-
-(16, 'hackerem-sam-sobe-2-xss', '2007-07-29 13:21:17', 'Hackerem sám sobě (2) - XSS'
-
+---
+layout: single
+title:  "Hackerem sám sobě (2) - XSS"
+date:   2007-07-29 13:21:17
+---
 XSS je zkratka pro Cross-site Scripting (aby nedošlo k záměně s kaskádovými styly,
 používá se místo CSS zkratka XSS). U této techniky je snahou podstrčit stránkám
 svůj kód pomocí jakéhokoliv vstupu. Většinou se jedná o JavaScript, který
 například dokáže manipulovat s vašimi cookies a posílat citlivé údaje útočníkovi.
 Napadlo vás třeba, že se za neškodným avatarem může skrývat skript, který dokáže
-získat heslo z vaší nezabezpečené administrace ?
+získat heslo z vaší nezabezpečené administrace?
 
 [POKRACOVANI]
 

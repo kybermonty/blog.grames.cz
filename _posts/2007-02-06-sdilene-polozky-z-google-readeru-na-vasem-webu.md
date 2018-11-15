@@ -1,8 +1,8 @@
-2007-02-06-sdilene-polozky-z-google-readeru-na-vasem-webu
-
-(9, 'sdilene-polozky-z-google-readeru-na-vasem-webu', '2007-02-06 21:08:59',
-'Sdílené položky z Google Readeru na vašem webu',
-
+---
+layout: single
+title:  "Sdílené položky z Google Readeru na vašem webu"
+date:   2007-02-06 21:08:59
+---
 Už nějakou dobu používám webovou RSS čtečku "Google Reader":http://www.google.com/reader
 a jsem s ní naprosto spokojen. Je to velice praktická věc - nejen, že nemusíte
 mít v počítači žádný program, ale také se hodí, když nejste zrovna doma na svém

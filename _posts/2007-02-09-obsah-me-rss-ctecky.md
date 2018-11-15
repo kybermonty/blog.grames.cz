@@ -1,7 +1,8 @@
-2007-02-09-obsah-me-rss-ctecky
-
-(10, 'obsah-me-rss-ctecky', '2007-02-09 11:20:11', 'Obsah mé RSS čtečky',
-
+---
+layout: single
+title:  "Obsah mé RSS čtečky"
+date:   2007-02-09 11:20:11
+---
 Za tu dobu používání internetu jsem si nashromáždil pár webů, které si vždy rád
 přečtu a aby mi nic neuniklo, tak je mám ve své RSS čtečce. Někdo si ráno při
 snídani otevře denní tisk, já zase každý den čtu články, které mi nabídne RSS

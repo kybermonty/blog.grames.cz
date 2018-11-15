@@ -1,17 +1,17 @@
-2006-06-18-windows-vista-beta-2
-
-(6, 'windows-vista-beta-2', '2006-06-18 13:42:25', 'Windows Vista beta 2',
-
+---
+layout: single
+title:  "Windows Vista beta 2"
+date:   2006-06-18 13:42:25
+---
 Nedáno tomu, co Microsoft uvolnil Windows Vista beta 2 pro veřejnost. Stačí
-se "zaregistrovat":http://www.microsoft.com/windowsvista/getready/preview.mspx
+se [zaregistrovat](http://www.microsoft.com/windowsvista/getready/preview.mspx)
 a stáhnout obraz instalačního disku. Pokud se rozhodnete pro 32. bitovou verzi,
 stáhnete 3,5 GB, u 64. bitové verze má disk 4,4 GB. Po registraci vám bude zaslán
 klíč, který můžete použít na deseti počítačích. Získáte tedy zdarma Windows, který
 můžete používat až do 1. června 2007. Ta horší zpráva je, že budete mít všechno
 anglicky, ale nevidím v tom až takový problém.
 
-Instalace
-=========
+## Instalace
 
 Jakmile máte stažen obraz disku, stačí ho vypálit na DVD. Např. když se vás
 Nero Express ptá, co chcete vypálit, tak kliknete na "Obraz disku nebo uložený
@@ -28,28 +28,25 @@ instalace trvala kolem půl hodiny a kdybych nepoužil DVD-RW, bylo by to i rych
 Na instalaci se mi nelíbila jedna věc - v průběhu se setkáte s černou
 obrazovkou a nelze poznat, zda se ještě něco děje nebo se to nadobro zaseklo.
 
-[POKRACOVANI]
-
-Novinky
-=======
+## Novinky
 
 Hned jako první mě zaujala zajímavá animace při startu Windows a také hezká
 přihlašovací obrazovka:
 
-[* vista_login_male.jpg 180x138 .(přihlašovací obrazovka) *]:[img/vista_login.jpg]
+![Přihlašovací obrazovka](/assets/images/vista_login.jpg)
 
 Po přihlášení zjistíte, že ikony na ploše jsou větší a vpravo je lišta, kde
 můžete umisťovat tzv. Gadgets:
 
-[* vista_plocha_male.jpg 180x135 .(plocha ve Windows Vista) *]:[img/vista_plocha.jpg]
+![Plocha ve Windows Vista](/assets/images/vista_plocha.jpg)
 
 Po otevření prvního okna vám určitě neunikne nový vzhled, které se jmenuje
 Aero. Horní lišta okna a jeho okraje jsou průhledné. Když najedete myší např. na
 tlačítko pro minimalizaci okna, začne jako by svítit:
 
-[* vista_aero_male.jpg 180x135 .(okna se vzhledem Aero) *]:[img/vista_aero.jpg]
+![Okna se vzhledem Aero](/assets/images/vista_aero.jpg)
+![Nabídka Start](/assets/images/vista_start.jpg)
 
-[* vista_start_male.jpg 180x135 .(nabídka Start) >]:[img/vista_start.jpg]
 Nabídka Start také doznala změn. Pokud jste měli ve Windows XP hodně nainstalovaných
 aplikací, pak jste při rozbalení programů v nabídce Start měli zaplněný celý monitor
 a špatně se v tom orientovalo. Nyní se menu programů rozbaluje samo do sebe, takže
@@ -67,23 +64,22 @@ takový zážitek (viz druhý obrázek pod tímto odstavcem). Pokud najedete my�
 některé ze spuštěných oken v dolní liště, zobrazí se taktéž náhled (viz třetí
 obrázek).
 
-[* vista_clip_male.jpg 180x135 .(3D Clip) *]:[img/vista_clip.jpg]
-[* vista_nahledy_male.jpg 180x35 .(přepínání aplikací) *]:[img/vista_nahledy.jpg]
-[* vista_nahled.jpg 180x165 .(náhled okna) *]
+![3D Clip](/assets/images/vista_clip.jpg)
+![Přepínání aplikací](/assets/images/vista_nahledy.jpg)
+![Náhled okna](/assets/images/vista_nahled.jpg)
 
 Ještě ukážu poslední screenshot z Network Center. Zaujal mě totiž tím, že ukazuje
 aktuální stav připojení vašeho počítače k síti a internetu. Když vypadlo připojení
 k internetu a fungovala pouze vnitřní sít, tak se na obrázku přeškrtnul spoj mezi
 sítí a internetem. Člověk hned vidí, na čem je.
 
-[* vista_network_male.jpg 180x135 .(network center) *]:[img/vista_network.jpg]
+![Network center](/assets/images/vista_network.jpg)
 
 Tím bych výčet novinek ukončil. Je jich rozhodně víc, dalo by se systém zkoumat
 i "zevnitř" (např. že to všechno běží na .NET), ale to by bylo čtení
 na dlouhé zimní večery.
 
-Tipy
-====
+## Tipy
 
 Windows Vista mají standardně zapnuto ClearType, takže pokud máte CRT monitor,
 bude písmo moc vyhlazené a nebude dobře čitelné. Proto doporučuji ClearType
@@ -111,4 +107,4 @@ help protect your computer a tlačítkem OK potvrdíte.
 
 Toť vše, co jsem vám chtěl sdělit. Pokud si chcete Windows Vista vyzkoušet sami,
 koukněte se nejdříve na
-"hardwarové nároky":http://www.microsoft.com/cze/windowsvista/getready/capable.mspx.'),
+[hardwarové nároky](http://www.microsoft.com/cze/windowsvista/getready/capable.mspx).

@@ -1,12 +1,13 @@
-2005-01-12-problemy-s-grafikou
-7, '120105', '12. ledna 2005 17:47', 'Problémy s grafikou',
-
-
+---
+layout: single
+title:  "Problémy s grafikou"
+date:   2005-01-12 17:47
+---
 Má radost s nového počítače rychle vyprchala, když jsem zjistil,
 že grafika po pár minutách hraní hry zatuhne. Při reklamaci
 zjistili, že ta graf. karta není kompatibilní s deskou. Dali nám
 tedy stejnou grafiku, ale od jiného výrobce a po vyzkoušení
-jsem zjistil stějný problém :-(
+jsem zjistil stějný problém :confused:.
 
 Při druhé reklamaci jsme se rozhodli, že koupíme jinou graf. kartu
 a vzali jsme NVIDIA GeForce FX 5500. Výměna za jinou značku se

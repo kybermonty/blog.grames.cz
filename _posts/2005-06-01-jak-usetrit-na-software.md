@@ -1,71 +1,68 @@
-<?
-  $titulek = "Jak ušetøit na software";
-  include '../hlavicka.php';
-?>
-<h1>Èlánky - Jak ušetøit na software</h1><br />
-A zase jsme u tìch penìz, tentokráte vybavíme komplet celı poèítaè programy
-zadarmo (jediné, co si musíte koupit je Windows). U kadého programu je v hranatıch
-závorkách uvedena licence, jazyk a velikost instalace.
-<br /><br />
-Zaènu úplnì od zaèátku a to nìjakım správcem souborù, protoe bez nìho se nehnu
-- nemám rád proklikávání pøes okno Tento poèítaè. Sice je nejlepší Total Commander,
-ale ten rozhodnì není zadarmo. Našel jsem tedy program <a href="http://www.sura.ru/uddm">WorkSoft Navigator</a>
-[freeware, èesky, 1,21 MB], kterı má dokonce nìkolik vìcí stejnıch jako Total
-Commander. Jediné, co mi u tohoto programu chybí je monost procházet archivy
-jako by to byly sloky.
-<br /><br />
-Pokud se vzdáme Total Commanderu, je tøeba se poohlédnout i po FTP klientovi.
-Nejvíce mne zaujal <a href="http://www.internet-soft.com">FTP Commander</a>
-[freeware, èesky, 663 kB] pøedevším svou jednoduchostí. Nelíbí se mi velice malá
-monost nastavení - pro zmìnu vıchozího adresáøe místního poèítaèe jsem musel
-editovat soubor options.ftp (poloka IniPath).
-<br /><br />
-Také si musíme s nìèím prohlíet obrázky a standardní prohlíeè obrázkù ve
-Windows XP se mi pøíliš nezamlouvá. U dlouho pouívám <a href="http://www.irfanview.com">IrfanView</a>
-[freeware, èesky (není souèástí instalace), 0,8 MB] a jsem s ním plnì spokojen.
-<br /><br />
-U prohlíení zùstaneme a zamìøíme se na internetové stránky. Internet Explorer
-není pro mì dostaèující, a proto pouívám <a href="http://firefox.czilla.cz">Mozilla Firefox</a>
-[MPL, èesky, 4,66 MB], kterı podporuje tzv. rozšíøení (pøídavné funkce). Vyuívám
-pak funkce, jako je filtrování reklam, gesta myší nebo <a href="modemisti_uz_firefox_nepusti.php">uloení kadé navštívené stránky</a>.
-Vıhod je rozhodnì více, vše se dozvíte na uvedenıch stránkách.
-<br /><br />
-Pro prohlíení formátu PDF potøebujete <a href="http://www.adobece.com/products/acrobat">Adobe Reader</a>
-[freeware, èesky, 11,5 MB].
-<br /><br />
-Nejvìtší èástku lze ušetøit, kdy místo Microsoft Office si poøídíte radši
-<a href="http://oo.o.cz">OpenOffice.org</a> [GPL, èesky, 72,1 MB]. Mimo jiné
-umí i export do PDF.
-<br /><br />
-Pokud èasto stahujete z internetu soubory, je dobré si nainstalovat program, kterı
-dokáe urychlit stahování rozdìlením souboru na nìkolik segmentù. Dùleitá také je,
-aby tento program umìl navázat pøerušené stahování. Všechno splòuje <a href="http://www.leechget.net/">LeechGet 2004</a>
-[pro domácí pouití zdarma, èesky, 2,51 MB]. Pomocí plug-inù dokáe pracovat i s
+---
+layout: single
+title:  "Jak uÅ¡etÅ™it na software"
+date:   2005-06-01
+---
+A zase jsme u tÄ›ch penÄ›z, tentokrÃ¡te vybavÃ­me komplet celÃ½ poÄÃ­taÄ programy
+zadarmo (jedinÃ©, co si musÃ­te koupit je Windows). U kaÅ¾dÃ©ho programu je v hranatÃ½ch
+zÃ¡vorkÃ¡ch uvedena licence, jazyk a velikost instalace.
+
+ZaÄnu ÃºplnÄ› od zaÄÃ¡tku a to nÄ›jakÃ½m sprÃ¡vcem souborÅ¯, protoÅ¾e bez nÄ›ho se nehnu - nemÃ¡m rÃ¡d
+proklikÃ¡vÃ¡nÃ­ pÅ™es okno Tento poÄÃ­taÄ. Sice je nejlepÅ¡Ã­ Total Commander,
+ale ten rozhodnÄ› nenÃ­ zadarmo. NaÅ¡el jsem tedy program <a href="http://www.sura.ru/uddm">WorkSoft Navigator</a>
+[freeware, Äesky, 1,21 MB], kterÃ½ mÃ¡ dokonce nÄ›kolik vÄ›cÃ­ stejnÃ½ch jako Total
+Commander. JedinÃ©, co mi u tohoto programu chybÃ­ je moÅ¾nost prochÃ¡zet archivy
+jako by to byly sloÅ¾ky.
+
+Pokud se vzdÃ¡me Total Commanderu, je tÅ™eba se poohlÃ©dnout i po FTP klientovi.
+NejvÃ­ce mne zaujal <a href="http://www.internet-soft.com">FTP Commander</a>
+[freeware, Äesky, 663Â kB] pÅ™edevÅ¡Ã­m svou jednoduchostÃ­. NelÃ­bÃ­ se mi velice malÃ¡
+moÅ¾nost nastavenÃ­ - pro zmÄ›nu vÃ½chozÃ­ho adresÃ¡Å™e mÃ­stnÃ­ho poÄÃ­taÄe jsem musel
+editovat soubor options.ftp (poloÅ¾ka IniPath).
+
+TakÃ© si musÃ­me s nÄ›ÄÃ­m prohlÃ­Å¾et obrÃ¡zky a standardnÃ­ prohlÃ­Å¾eÄ obrÃ¡zkÅ¯ ve
+Windows XP se mi pÅ™Ã­liÅ¡ nezamlouvÃ¡. UÅ¾ dlouho pouÅ¾Ã­vÃ¡m <a href="http://www.irfanview.com">IrfanView</a>
+[freeware, Äesky (nenÃ­ souÄÃ¡stÃ­ instalace), 0,8 MB] a jsem s nÃ­m plnÄ› spokojen.
+
+U prohlÃ­Å¾enÃ­ zÅ¯staneme a zamÄ›Å™Ã­me se na internetovÃ© strÃ¡nky. Internet Explorer
+nenÃ­ pro mÄ› dostaÄujÃ­cÃ­, a proto pouÅ¾Ã­vÃ¡m <a href="http://firefox.czilla.cz">Mozilla Firefox</a>
+[MPL, Äesky, 4,66Â MB], kterÃ½ podporuje tzv. rozÅ¡Ã­Å™enÃ­ (pÅ™Ã­davnÃ© funkce). VyuÅ¾Ã­vÃ¡m
+pak funkce, jako je filtrovÃ¡nÃ­ reklam, gesta myÅ¡Ã­ nebo <a href="modemisti_uz_firefox_nepusti.php">uloÅ¾enÃ­ kaÅ¾dÃ© navÅ¡tÃ­venÃ© strÃ¡nky</a>.
+VÃ½hod je rozhodnÄ› vÃ­ce, vÅ¡e se dozvÃ­te na uvedenÃ½ch strÃ¡nkÃ¡ch.
+
+Pro prohlÃ­Å¾enÃ­ formÃ¡tu PDF potÅ™ebujete <a href="http://www.adobece.com/products/acrobat">Adobe Reader</a>
+[freeware, Äesky, 11,5Â MB].
+
+NejvÄ›tÅ¡Ã­ ÄÃ¡stku lze uÅ¡etÅ™it, kdyÅ¾ mÃ­sto Microsoft Office si poÅ™Ã­dÃ­te radÅ¡i
+<a href="http://oo.o.cz">OpenOffice.org</a> [GPL, Äesky, 72,1Â MB]. Mimo jinÃ©
+umÃ­ i export do PDF.
+
+Pokud Äasto stahujete z internetu soubory, je dobrÃ© si nainstalovat program, kterÃ½
+dokÃ¡Å¾e urychlit stahovÃ¡nÃ­ rozdÄ›lenÃ­m souboru na nÄ›kolik segmentÅ¯. DÅ¯leÅ¾itÃ¡ takÃ© je,
+aby tento program umÄ›l navÃ¡zat pÅ™eruÅ¡enÃ© stahovÃ¡nÃ­. VÅ¡echno splÅˆuje <a href="http://www.leechget.net/">LeechGet 2004</a>
+[pro domÃ¡cÃ­ pouÅ¾itÃ­ zdarma, Äesky, 2,51 MB]. PomocÃ­ plug-inÅ¯ dokÃ¡Å¾e pracovat i s
 Mozillou a Operou.
-<br /><br />
-Kdy u jsme u toho stahování, pro staení komplet celıch webù mám program
-<a href="http://www.httrack.com">HTTrack Website Copier</a> [GPL, èesky, 3,02 MB].
-<br /><br />
-Podporu nìkolika formátù a práci s nimi zajišuje archivaèní program <a href="http://www.alzip.com/">ALZip</a>
-[pro domácí pouití zdarma, èesky, 1,81 MB].
-<br /><br />
-Jako poštovního klienta pouívám <a href="http://www.czilla.cz">Mozilla Thunderbird</a>
-[MPL, èesky, 6,01 MB]. V dnešní dobì se strašnì rozmohl spam (nevyádaná pošta), proto
-dopuruèuji ještì nainstalovat <a href="http://www.spampal.org">SpamPal</a> [freeware, anglicky, 714 kB].
-Po instalaci musíte ještì správnì nastavit poštovní program, postup je uveden na stránkách (anglicky).
-<br /><br />
-Byla by škoda nezmínit textovı (èi pøímo programátorskı) editor <a href="http://www.pspad.com/">PSPad</a>
-[freeware, èesky, 1,65 MB]. Umí toho opravdu hodnì (já ho nejvíce pouívám pro HTML a PHP
-soubory - pomocí CTRL + mezerník lze lehce vkládat jednotl. tagy resp. funkce, taky je
-dobrá kontrola pravopisu).
-<br /><br />
-Další poloka, na které se dá vıraznì ušetøit, je grafickı editor. Vıbornı graf. editor
-se spoustou filtrù je <a href="http://www.gimp.cz">GIMP</a> [FDL, èesky, 10,68 MB].
-<br /><br />
-U jenom zbıvá zmínit program pro pøehrávání souborù MP3 - <a href="http://www.winamp.com">Winamp</a>
-[freeware, èesky (není souèástí instalace), 4,35 MB]. Ovšem neznám èlovìka, kterı nezná Winamp...
-<br /><br />
-To je vše, hlavnì nezapomeòte ještì na <a href="jak_zdarma_zabezpecit_pc.php">programy pro bezpeènost</a>.
-<?
-  include '../paticka.php';
-?>
+
+KdyÅ¾ uÅ¾ jsme u toho stahovÃ¡nÃ­, pro staÅ¾enÃ­ komplet celÃ½ch webÅ¯ mÃ¡m program
+<a href="http://www.httrack.com">HTTrack Website Copier</a> [GPL, Äesky, 3,02Â MB].
+
+Podporu nÄ›kolika formÃ¡tÅ¯ a prÃ¡ci s nimi zajiÅ¡Å¥uje archivaÄnÃ­ program <a href="http://www.alzip.com/">ALZip</a>
+[pro domÃ¡cÃ­ pouÅ¾itÃ­ zdarma, Äesky, 1,81Â MB].
+
+Jako poÅ¡tovnÃ­ho klienta pouÅ¾Ã­vÃ¡m <a href="http://www.czilla.cz">Mozilla Thunderbird</a>
+[MPL, Äesky, 6,01Â MB]. V dneÅ¡nÃ­ dobÄ› se straÅ¡nÄ› rozmohl spam (nevyÅ¾Ã¡danÃ¡ poÅ¡ta), proto
+dopuruÄuji jeÅ¡tÄ› nainstalovat <a href="http://www.spampal.org">SpamPal</a> [freeware, anglicky, 714Â kB].
+Po instalaci musÃ­te jeÅ¡tÄ› sprÃ¡vnÄ› nastavit poÅ¡tovnÃ­ program, postup je uveden na strÃ¡nkÃ¡ch (anglicky).
+
+Byla by Å¡koda nezmÃ­nit textovÃ½ (Äi pÅ™Ã­mo programÃ¡torskÃ½) editor <a href="http://www.pspad.com/">PSPad</a>
+[freeware, Äesky, 1,65Â MB]. UmÃ­ toho opravdu hodnÄ› (jÃ¡ ho nejvÃ­ce pouÅ¾Ã­vÃ¡m pro HTML a PHP
+soubory - pomocÃ­ CTRL + mezernÃ­k lze lehce vklÃ¡dat jednotl. tagy resp. funkce, taky je
+dobrÃ¡ kontrola pravopisu).
+
+DalÅ¡Ã­ poloÅ¾ka, na kterÃ© se dÃ¡ vÃ½raznÄ› uÅ¡etÅ™it, je grafickÃ½ editor. VÃ½bornÃ½ graf. editor
+se spoustou filtrÅ¯ je <a href="http://www.gimp.cz">GIMP</a> [FDL, Äesky, 10,68 MB].
+
+UÅ¾ jenom zbÃ½vÃ¡ zmÃ­nit program pro pÅ™ehrÃ¡vÃ¡nÃ­ souborÅ¯ MP3 - <a href="http://www.winamp.com">Winamp</a>
+[freeware, Äesky (nenÃ­ souÄÃ¡stÃ­ instalace), 4,35Â MB]. OvÅ¡em neznÃ¡m ÄlovÄ›ka, kterÃ½ neznÃ¡ Winamp...
+
+To je vÅ¡e, hlavnÄ› nezapomeÅˆte jeÅ¡tÄ› na <a href="jak_zdarma_zabezpecit_pc.php">programy pro bezpeÄnost</a>.

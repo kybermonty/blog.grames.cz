@@ -1,8 +1,8 @@
-2006-12-08-moje-zacatky-v-cpp
-
-(7, 'moje-zacatky-v-cpp', '2006-12-08 21:22:56', 'Moje začátky v C++',
-
-
+---
+layout: single
+title:  "Moje začátky v C++"
+date:   2006-12-08 21:22:56
+---
 Aneb jak jsem s pomocí znalostí Javy a Céčka (které už si moc nevzpomínám) učil
 C++. Malá poznámka na začátek - používám vývojové prostředí Microsoft Visual
 Studio 2005, ale myslím, že moje zkušenosti půjdou použít i jinde.

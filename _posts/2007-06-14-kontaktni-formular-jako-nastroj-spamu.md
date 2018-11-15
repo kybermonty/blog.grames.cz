@@ -1,8 +1,8 @@
-2007-06-14-kontaktni-formular-jako-nastroj-spamu
-
-(13, 'kontaktni-formular-jako-nastroj-spamu', '2007-06-14 14:25:24',
-'Kontaktní formulář jako nástroj spamu',
-
+---
+layout: single
+title:  "Kontaktní formulář jako nástroj spamu"
+date:   2007-06-14 14:25:24
+---
 Možná si to neuvědomujete, ale neošetřený formulář může být jednou velkou bezpečnostní
 dírou a není problém pomocí jednoho kliknutí poslat třeba 50 e-mailů. Pokud jste
 se vyděsili o čem to mluvím, je tento článek určen právě pro vás...

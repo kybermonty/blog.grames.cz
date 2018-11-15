@@ -1,8 +1,8 @@
-2007-01-26-komunikujte-profesionalne
-
-(8, 'komunikujte-profesionalne', '2007-01-26 23:33:29', 'Komunikujte profesionálně',
-
-
+---
+layout: single
+title:  "Komunikujte profesionálně"
+date:   2007-01-26 23:33:29
+---
 Včerejší večer se staly dvě události - ta první je zcela zásadní a výjimečná -
 podařilo se mi ukončit předmět Programování v C/C++ se 100 body, což je plný
 počet ! To se stává opravdu málokdy, možná jsem maximálního počtu bodů dosáhl

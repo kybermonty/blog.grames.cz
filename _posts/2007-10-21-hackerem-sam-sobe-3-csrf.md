@@ -1,7 +1,8 @@
-2007-10-21-hackerem-sam-sobe-3-csrf
-
-(17, 'hackerem-sam-sobe-3-csrf', '2007-10-21 16:44:26', 'Hackerem sám sobě (3) - CSRF'
-
+---
+layout: single
+title:  "Hackerem sám sobě (3) - CSRF"
+date:   2007-10-21 16:44:26
+---
 Cross-Site Request Forgery navazuje na XSS. Zatímco u techniky XSS se snaží
 uživatel obelstít stránky, tak u CSRF je to naopak - stránky se snaží nachytat
 uživatele. Využívá se toho, že návštěvník stránek je přihlášen na jiném serveru -

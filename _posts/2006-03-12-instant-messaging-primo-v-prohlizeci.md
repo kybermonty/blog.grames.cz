@@ -1,17 +1,18 @@
-2006-03-12-instant-messaging-primo-v-prohlizeci
-
-(3, 'instant-messaging-primo-v-prohlizeci', '2006-03-12 18:19:00',
-'Instant messaging přímo v prohlížeči',
-
-[* gmail_chat_male.jpg 180x130 .(Screenshot Gmailu) >]:[img/gmail_chat.jpg]
-"Gmail":http://www.gmail.com/ nabízí "instant messaging":http://cs.wikipedia.org/wiki/Instant_messaging
+---
+layout: single
+title:  "Instant messaging přímo v prohlížeči"
+date:   2006-03-12 18:19:00
+---
+[Gmail](http://www.gmail.com/) nabízí [instant messaging](http://cs.wikipedia.org/wiki/Instant_messaging)
 přímo v prostředí e-mailu, tzn. přímo v internetovém prohlížeči. Podporovány
 jsou zatím Internet Explorer 6.0+ a Firefox 1.0+, v ostatních (např. v Opeře) si
-neškrtnete a musíte si nainstalovat program "Google Talk":http://www.google.com/talk/.
+neškrtnete a musíte si nainstalovat program [Google Talk](http://www.google.com/talk/).
+
+![Screenshot Gmailu](/assets/images/gmail_chat.jpg)
 
 Výše zmíněná funkce je potřebná v situaci, kdy jste např. v internetové kavárně
 kde není nainstalován komunikační program a Java zde rovněž není. V tomto případě
-byste byli vyřízeni i s "ICQ v Javě":http://www.icq.com/icq2go/.
+byste byli vyřízeni i s [ICQ v Javě](http://www.icq.com/icq2go/).
 
 Na Gmailu se stačí přihlásit a hned v levém sloupci vidíte, kdo je zrovna online.
 Pro zahájení rozhovoru je třeba poslat druhé straně pozvání a pak už můžete
@@ -24,4 +25,4 @@ Je to zajímavá služba, ale bojím se, že na úroveň ICQ se to těžko rozš
 to spíše jen další alternativa, kterou bude používat pár lidí.
 
 Pozn.: Ještě doplním, že pokud chcete tuto novinku vyzkoušet, tak si musíte
-přepnout jazyk na angličtinu.'),
+přepnout jazyk na angličtinu.

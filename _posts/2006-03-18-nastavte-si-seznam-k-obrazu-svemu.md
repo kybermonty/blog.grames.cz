@@ -1,12 +1,13 @@
-2006-03-18-nastavte-si-seznam-k-obrazu-svemu
-
-(4, 'nastavte-si-seznam-k-obrazu-svemu', '2006-03-18 16:38:00',
-'Nastavte si Seznam k obrazu svému',
-
-[* seznam_homepage_male.jpg 170x143 .(Seznam - Moje zprávy) >]:[img/seznam_homepage.jpg]
-Po více než měsíci opět píšu o "Seznamu":http://www.seznam.cz/.
+---
+layout: single
+title:  "Nastavte si Seznam k obrazu svému"
+date:   2006-03-18 16:38:00
+---
+Po více než měsíci opět píšu o [Seznamu](http://www.seznam.cz/).
 V testovacím provozu je totiž
-"nová hlavní (domovská) stránka neboli homepage":http://homepage.seznam.cz/.
+[nová hlavní (domovská) stránka neboli homepage](http://homepage.seznam.cz/).
+
+![Seznam - Moje zprávy](/assets/images/seznam_homepage.jpg)
 
 Nejvíce se mi zalíbila RSS čtečka, která vám vypisuje nové zprávy přímo na hlavní
 straně a po kliknutí na Moje zprávy se dostanete přímo do prostředí RSS čtečky,
@@ -24,4 +25,4 @@ hodně málo. Taky by mělo jít vypnout zobrazování katalogu, ale tady bude n
 protože po nastavení této volby se nic nezměnilo.
 
 Novou homepage mě Seznam potěšil, takhle bude alespoň více uživatelů používat RSS,
-i když o tom třeba nebudou vědět.'),
+i když o tom třeba nebudou vědět.

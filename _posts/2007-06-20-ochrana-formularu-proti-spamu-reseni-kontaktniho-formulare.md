@@ -1,10 +1,8 @@
-2007-06-20-ochrana-formularu-proti-spamu-reseni-kontaktniho-formulare
-
-(14, 'ochrana-formularu-proti-spamu-reseni-kontaktniho-formulare',
-'2007-06-20 14:15:33',
-Ochrana formulářů proti spamu + řešení kontaktního formuláře',
-
-
+---
+layout: single
+title:  "Ochrana formulářů proti spamu + řešení kontaktního formuláře"
+date:   2007-06-20 14:15:33
+---
 Minule jsem vám prozradil, jak ochránit kontaktní formulář přes posíláním jednoho
 e-mailu na několik adres a dnes si povíme, jak od tohoto formuláře odlákat roboty
 úplně. V druhé části článku dokonce naleznete hotové řešení dokonalého kontaktního

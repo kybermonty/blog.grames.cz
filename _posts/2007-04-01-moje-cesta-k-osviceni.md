@@ -1,12 +1,14 @@
-2007-04-01-moje-cesta-k-osviceni
-
-(12, 'moje-cesta-k-osviceni', '2007-04-01 13:07:02', 'Moje cesta k osvícení',
-
-[* tux.jpg 120x147 .(Tučňák) >]
+---
+layout: single
+title:  "Moje cesta k osvícení"
+date:   2007-04-01 13:07:02
+categories: apríl
+---
+![Tučňák](/assets/images/tux.jpg){: .align-right}
 Postávám na ulici nebo chodím po domech a přesvědčuji lidi, aby se probudili a
-vybrali si tu správnou cestu. Ne, nejsem jehovista, jsem pravý nefalšovaný linuxák !
+vybrali si tu správnou cestu. Ne, nejsem jehovista, jsem pravý nefalšovaný linuxák!
 
-Linux je ta správná volba, je to nejlepší, co můžete vašemu počítači dopřát !
+Linux je ta správná volba, je to nejlepší, co můžete vašemu počítači dopřát!
 Nechápu, proč všichni kradou nějaký ubohý operační systém od Microsoftu, když
 můžou mít úplně zadarmo Linux. S Windows nemám dobré zkušenosti - naposledy, když
 jsem byl přinucen pracovat s Windows, začal jsem se celý třepat a šla mi pěna od
@@ -27,9 +29,8 @@ příklad z takového Marka Shuttlewortha (asi ho znáte jako prvního kosmické
 díky němu vznikla úžasná distribuce Ubuntu. Tento open source nadšenec ji totiž
 sponzoruje. Já se snažím kráčet v jeho stopách...
 
-Pojďte se připojit také k tomuto skvělému světu Linuxu ! Můžeme třeba začít skládat
+Pojďte se připojit také k tomuto skvělému světu Linuxu! Můžeme třeba začít skládat
 písničky - každý životní styl by měl mít i hudební styl. Doufám, že nás čeká slibná
 budoucnost, kdy bude každý počítač běžet na operačním systému Linux.
 
-[* http://proc.linux.cz/img/plc-468x60-ban-anim-2.gif 468x60 .(Proč používat Linux) *]:http://proc.linux.cz/
-<br /><br />'),
+[![Proč používat Linux](/assets/images/proc-linux.gif)](http://proc.linux.cz/)

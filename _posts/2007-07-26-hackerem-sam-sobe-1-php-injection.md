@@ -1,7 +1,8 @@
-2007-07-26-hackerem-sam-sobe-1-php-injection
-
-(15, 'hackerem-sam-sobe-1-php-injection', '2007-07-26 15:24:46', 'Hackerem sám sobě (1) - PHP Injection',
-
+---
+layout: single
+title:  "Hackerem sám sobě (1) - PHP Injection"
+date:   2007-07-26 15:24:46
+---
 Tento článek startuje menší seriál o bezpečnosti webových aplikací. Řeknu vám,
 jak hackovat své vlastní stránky za účelem důkladného otestování bezpečnosti
 vašeho webu. Tím vás ale nenabádám, abyste tyto techniky zkoušeli na stránkách,

@@ -1,57 +1,58 @@
-<?
-  $titulek = "Jak zdarma zabezpeèit PC";
-  include '../hlavicka.php';
-?>
-<h1>Èlánky - Jak zdarma zabezpeèit PC</h1><br />
-Nebezpeèí virù a útokù z internetu je v dnešní dobì aktuální téma, ovšem
-mnoho uivatelù PC ho podceòuje. Proto vás seznámím s programy pro ochranu pøed
-viry, zákeønım softwarem a útoky z internetu.
-<br /><br />
-<h2>Viry - problém èíslo jedna</h2><br />
-Jako ochranu proti virùm všeho druhu doporuèuji program Avast! Home Edition,
-kterı lze získat ze stránek <a href="http://www.avast.cz">www.avast.cz</a> po
-bezplatné registraci. I kdy je tento antivirus zdarma, má všechny funkce, které
-má kvalitní antivirus mít - rezidentní ochrana, pøírùstková aktualizace, kontrola
-pošty èi kontrola Instant Messagingu (sluby typu ICQ, MSN Messenger). Myslím si,
-e nejvìtší procento virù pøichází poštou, proto byste mìli vìnovat èas dùkladnému
-nastavení kontroly pošty.
-<br /><br />
-<h2>Zeï mezi mnou a internetem</h2><br />
-Pokud se pøipojujete na internet nebo jste poøád pøipojeni na internet (v tomto
-pøípadì jste šastnı èlovìk), tak je dùleité mít nainstalovanı firewall.
-Firewall je program, kterı kontroluje veškerı provoz mezi vámi a internetem (èi
-jinou sítí) - je to jakási zeï mezi vámi a celosvìtovou sítí. Firewall vás ochraòuje
-pøed útoky z internetu a programy, které máte nainstalovány v poèítaèi a chtìjí
-neoprávnìnì odeslat napø. data o vašem softwaru na internet. Vıbornı osobní
-firewall je <a href="http://www.kerio.cz">Kerio Personal Firewall</a>. Pøi
-jakémkoliv pokusu o pøístup z èi do internetu vyskoèí okno a upozorní vás na to.
-Pokud aplikaci snaící se o pøístup k internetu znáte, vytvoøte pravidlo tak, e
-zaškrtnete "Vytvoøit pravidlo..." a kliknete na "Povolit". Zda je vám tento program
-neznámı, kliknìte radši na "Zakázat". Doporuèuji vypnout modul bezpeènosti systému
-(provedete to v konfiguraci firewallu), protoe byste se u kadé spuštìné aplikace
-uklikali. Ještì poznámka - pøi instalaci vyberte Advanced (Learning mode), protoe
-v tom prvním reimu se blokuje veškerá pøíchozí komunikace.
-<br /><br />
-<h2>Hoïte spyware do koše</h2><br />
-Spyware je program, kterı odesílá data z poèítaèe na internet bez vašeho souhlasu
-(vìtšinou to bıvají statistická data pro potøeby reklamy, ale kdo vám to zaruèí).
-Tyto programy bıvají souèástí jinıch aplikací, které jsou sponzorovány reklamou
-nebo je také mùeme najít na internetovıch stránkách (po kadém surfování na
-internetu mi pravidelnì zùstane v poèítaèi pár spyware). Pro odstranìní tìchto
-špiónù doporuèuji program <a href="http://www.spybot.info">Spybot - Search &amp; Destroy</a>.
-Ještì je nutno podotknout, e po odstranìní spywaru nemusí hostitelskı program
-fungovat (takto to funguje napø. u Download Acceleratoru Plus).
-<br /><br />
-Doplnìno: V boji proti spyware se mi velice osvìdèilo pouívat jinı prohlíeè ne
-Internet Explorer. Doporuèuji <a href="http://firefox.czilla.cz/">Firefox</a> nebo
-<a href="http://www.opera.com/">Operu</a>. Pøi pouívání tìchto alternativních
-prohlíeèù ji po surfování nenacházím spyware.
-<br /><br />
-<h2>Poslední rada - aktualizujte</h2><br />
-Neménì dùleité je udrovat všechny produkty aktuální - hlavnì to platí pro
-Microsoft Windows a antiviry. Hodnì uivatelù, kteøí si mysleli, e nemusí
-aktualizovat Windows, na to doplatili - viz Blaster, kterı vyuil díry ve Windows
-a bez problémù se stáhl na poèítaè. Tady by mimojiné pomohl taky firewall.
-<?
-  include '../paticka.php';
-?>
+---
+layout: single
+title:  "Jak zdarma zabezpeÄit PC"
+date:   2005-05-29
+---
+NebezpeÄÃ­ virÅ¯ a ÃºtokÅ¯ z internetu je v dneÅ¡nÃ­ dobÄ› aktuÃ¡lnÃ­ tÃ©ma, ovÅ¡em
+mnoho uÅ¾ivatelÅ¯ PC ho podceÅˆuje. Proto vÃ¡s seznÃ¡mÃ­m s programy pro ochranu pÅ™ed
+viry, zÃ¡keÅ™nÃ½m softwarem a Ãºtoky z internetu.
+
+## Viry - problÃ©m ÄÃ­slo jedna
+
+Jako ochranu proti virÅ¯m vÅ¡eho druhu doporuÄuji program Avast! Home Edition,
+kterÃ½ lze zÃ­skat ze strÃ¡nek [www.avast.cz](http://www.avast.cz) po
+bezplatnÃ© registraci. I kdyÅ¾ je tento antivirus zdarma, mÃ¡ vÅ¡echny funkce, kterÃ©
+mÃ¡ kvalitnÃ­ antivirus mÃ­t - rezidentnÃ­ ochrana, pÅ™Ã­rÅ¯stkovÃ¡ aktualizace, kontrola
+poÅ¡ty Äi kontrola Instant Messagingu (sluÅ¾by typu ICQ, MSN Messenger). MyslÃ­m si,
+Å¾e nejvÄ›tÅ¡Ã­ procento virÅ¯ pÅ™ichÃ¡zÃ­ poÅ¡tou, proto byste mÄ›li vÄ›novat Äas dÅ¯kladnÃ©mu
+nastavenÃ­ kontroly poÅ¡ty.
+
+## ZeÄ mezi mnou a internetem
+
+Pokud se pÅ™ipojujete na internet nebo jste poÅ™Ã¡d pÅ™ipojeni na internet (v tomto
+pÅ™Ã­padÄ› jste Å¡Å¥astnÃ½ ÄlovÄ›k), tak je dÅ¯leÅ¾itÃ© mÃ­t nainstalovanÃ½ firewall.
+Firewall je program, kterÃ½ kontroluje veÅ¡kerÃ½ provoz mezi vÃ¡mi a internetem (Äi
+jinou sÃ­tÃ­) - je to jakÃ¡si zeÄ mezi vÃ¡mi a celosvÄ›tovou sÃ­tÃ­. Firewall vÃ¡s ochraÅˆuje
+pÅ™ed Ãºtoky z internetu a programy, kterÃ© mÃ¡te nainstalovÃ¡ny v poÄÃ­taÄi a chtÄ›jÃ­
+neoprÃ¡vnÄ›nÄ› odeslat napÅ™. data o vaÅ¡em softwaru na internet. VÃ½bornÃ½ osobnÃ­
+firewall je [Kerio Personal Firewall](http://www.kerio.cz). PÅ™i
+jakÃ©mkoliv pokusu o pÅ™Ã­stup z Äi do internetu vyskoÄÃ­ okno a upozornÃ­ vÃ¡s na to.
+Pokud aplikaci snaÅ¾Ã­cÃ­ se o pÅ™Ã­stup k internetu znÃ¡te, vytvoÅ™te pravidlo tak, Å¾e
+zaÅ¡krtnete "VytvoÅ™it pravidlo..." a kliknete na "Povolit". Zda je vÃ¡m tento program
+neznÃ¡mÃ½, kliknÄ›te radÅ¡i na "ZakÃ¡zat". DoporuÄuji vypnout modul bezpeÄnosti systÃ©mu
+(provedete to v konfiguraci firewallu), protoÅ¾e byste se u kaÅ¾dÃ© spuÅ¡tÄ›nÃ© aplikace
+uklikali. JeÅ¡tÄ› poznÃ¡mka - pÅ™i instalaci vyberte Advanced (Learning mode), protoÅ¾e
+v tom prvnÃ­m reÅ¾imu se blokuje veÅ¡kerÃ¡ pÅ™Ã­chozÃ­ komunikace.
+
+## HoÄte spyware do koÅ¡e
+
+Spyware je program, kterÃ½ odesÃ­lÃ¡ data z poÄÃ­taÄe na internet bez vaÅ¡eho souhlasu
+(vÄ›tÅ¡inou to bÃ½vajÃ­ statistickÃ¡ data pro potÅ™eby reklamy, ale kdo vÃ¡m to zaruÄÃ­).
+Tyto programy bÃ½vajÃ­ souÄÃ¡stÃ­ jinÃ½ch aplikacÃ­, kterÃ© jsou sponzorovÃ¡ny reklamou
+nebo je takÃ© mÅ¯Å¾eme najÃ­t na internetovÃ½ch strÃ¡nkÃ¡ch (po kaÅ¾dÃ©m surfovÃ¡nÃ­ na
+internetu mi pravidelnÄ› zÅ¯stane v poÄÃ­taÄi pÃ¡r spyware). Pro odstranÄ›nÃ­ tÄ›chto
+Å¡piÃ³nÅ¯ doporuÄuji program [Spybot - Search &amp; Destroy](http://www.spybot.info).
+JeÅ¡tÄ› je nutno podotknout, Å¾e po odstranÄ›nÃ­ spywaru nemusÃ­ hostitelskÃ½ program
+fungovat (takto to funguje napÅ™. u Download Acceleratoru Plus).
+
+DoplnÄ›no: V boji proti spyware se mi velice osvÄ›dÄilo pouÅ¾Ã­vat jinÃ½ prohlÃ­Å¾eÄ neÅ¾
+Internet Explorer. DoporuÄuji [Firefox](http://firefox.czilla.cz/) nebo
+[Operu](http://www.opera.com/). PÅ™i pouÅ¾Ã­vÃ¡nÃ­ tÄ›chto alternativnÃ­ch
+prohlÃ­Å¾eÄÅ¯ jiÅ¾ po surfovÃ¡nÃ­ nenachÃ¡zÃ­m spyware.
+
+## PoslednÃ­ rada - aktualizujte
+
+NemÃ©nÄ› dÅ¯leÅ¾itÃ© je udrÅ¾ovat vÅ¡echny produkty aktuÃ¡lnÃ­ - hlavnÄ› to platÃ­ pro
+Microsoft Windows a antiviry. HodnÄ› uÅ¾ivatelÅ¯, kteÅ™Ã­ si mysleli, Å¾e nemusÃ­
+aktualizovat Windows, na to doplatili - viz Blaster, kterÃ½ vyuÅ¾il dÃ­ry ve Windows
+a bez problÃ©mÅ¯ se stÃ¡hl na poÄÃ­taÄ. Tady by mimojinÃ© pomohl taky firewall.

@@ -1,7 +1,8 @@
-2004-10-03-vytvoreni-noveho-webu
-
-1, '031004', '3. října 2004 18:30', 'Vytvoření nového webu',
-
+---
+layout: single
+title:  "Vytvoření nového webu"
+date:   2004-10-03 18:30
+---
 Rozhodl jsem se všechny čtyři své weby zrušit a udělat jeden komplexní,
 který se bude lehce aktualizovat, protože některé mé weby byly tak staré,
 že jsem se za to styděl. Jen tak jsem si začal hrát s fotkou (vystřihl
