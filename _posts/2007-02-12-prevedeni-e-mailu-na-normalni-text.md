@@ -8,7 +8,7 @@ mě na e-mail. Je to pro analýzu rozhovorů několika lidí s tímto programem
 a následné vyhodnocení, jaké věty mu uživatelé nejčastěji píšou, čemu nejvíc nerozumí
 atd. A právě do téhle analýzy jsem se právě pustil a jako první krok jsem potřeboval
 převézt několik e-mailů na prostý text. Mimochodem, do dnešního dne jsem obdržel
-neuvěřitelných 1 269 e-mailů ! Tímto děkuji všem, kdo si udělali čas a tyto záznamy
+neuvěřitelných 1 269 e-mailů! Tímto děkuji všem, kdo si udělali čas a tyto záznamy
 poslali.
 
 Nebudu se zabývat HTML e-mailem - ten je většinou posílán i s prostým textem, takže
@@ -23,10 +23,9 @@ věc není žádný problém, ale největší oříšek byl ten hexadecimální 
 totiž, jak ho z textu převézt na číslo. Po dlouhém hledání jsem ovšem našel velmi
 jednoduché řešení - je na to funkce `strtol`.   
 
-[POKRACOVANI]
-
 Více než slova řekne zdrojový kód:
-/---code cpp
+
+```cpp
 #include "stdafx.h"
 #include <iostream>
 #include <fstream>
@@ -36,7 +35,7 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    	FILE *vstup, *vystup;
+	FILE *vstup, *vystup;
 	char radek[200], novyradek[200], hex[6];
 	// zacatek hlavicky e-mailu
 	char zacatek[7] = "From -";
@@ -46,7 +45,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-    		printf("Program musi byt volan se dvema parametry:\\n");
+		printf("Program musi byt volan se dvema parametry:\\n");
 		printf("convert.exe vstup.txt vystup.txt\\n");
 		exit(1);
 	}
@@ -54,27 +53,27 @@ int main(int argc, char *argv[])
 	fopen_s(&vstup, argv[1], "r");
 	if (vstup == NULL)
 	{
-    		printf( "Vstupni soubor nelze otevrit !!!\\n" );
+		printf( "Vstupni soubor nelze otevrit !!!\\n" );
 		exit(1);
 	}
 	// otevru soubor (druhy parametr) pro zapis
 	fopen_s(&vystup, argv[2], "w");
 	if (vystup == NULL)
 	{
-    		printf( "Vystupni soubor nelze otevrit  !!!\\n" );
+		printf( "Vystupni soubor nelze otevrit  !!!\\n" );
 		exit(1);
 	}
 	// dokud neni dosazen konec vstupniho souboru
 	while (!feof(vstup))
 	{
-    		// nactu cely radek
+		// nactu cely radek
 		fgets(radek, 200, vstup);
 		delka = (unsigned) strlen(radek);
 		// tady mam preskakovani hlavicky e-mailu
 		// abych neprepisoval data v ni
 		if (preskoc)
 		{
-    			// v hlavicce nahrazovani znaku nedelam a proto
+			// v hlavicce nahrazovani znaku nedelam a proto
 			// napisu cely radek nezmeneny na vystup
 			fprintf(vystup, "%s", radek);
 			// konec hlavicky
@@ -82,14 +81,14 @@ int main(int argc, char *argv[])
 		}
 		else
 		{
-    			if (delka > 6)
+			if (delka > 6)
 			{
-    				// zjisteni, zda tento radek neni zacatek hlavicky
+				// zjisteni, zda tento radek neni zacatek hlavicky
 				// e-mailu (jestli neobsahuje "From -")
 				shodne = true;
 				for (int i = 0; i < 6; i++)
 				{
-    					if (radek[i] != zacatek[i]) shodne = false;
+					if (radek[i] != zacatek[i]) shodne = false;
 				}
 				if (shodne) preskoc = true;
 			}
@@ -99,9 +98,9 @@ int main(int argc, char *argv[])
 			// prochazim jednotlive znaky radku
 			for (int i = 0; i < delka; i++)
 			{
-    				if (radek[i] == ''='')
+				if (radek[i] == ''='')
 				{
-    					if ((radek[i+1] == NULL) || (radek[i+2] == NULL)) break;
+					if ((radek[i+1] == NULL) || (radek[i+2] == NULL)) break;
 					// dva znaky za ''='' jsou hexadecimalni cislo, proto z toho
 					// nejdrive udelam retezec ve tvaru napr. 0x3D
 					sprintf_s(hex, sizeof(hex), "0x%c%c", radek[i+1], radek[i+2]);
@@ -125,13 +124,14 @@ int main(int argc, char *argv[])
 	
 	return 0;
 }
-\\---
+```
 
 Pokud netušíte, jak takový Quoted-printable e-mail vypadá, tak právě pro vás zde
 mám ukázku elektronického dopisu, který putuje od `abrakadabra@t-email.cz` do
 `kouzelnik@centrum.cz` (e-maily jsou vymyšlené, ve skutečnosti to je ukázka záznamu
 rozhovoru již zmíněného Kecala):
-/---code
+
+```
 From - Wed Jan 12 18:28:37 2005
 Received: by mail3 from <abrakadabra@t-email.cz> for <kouzelnik@mail3.centrum.cz>;
   Thu, 06 Jan 2005 17:06:32 +0100                                          
@@ -166,11 +166,12 @@ C: Co se stalo ? Pov=EDdej.
 P: Zkus se nad t=EDm zamyslet a p=F8ijde=B9 na odpov=EC=EF s=E1m.
 ...
 Doba rozhovoru: 00:06:36   Napsan=FDch v=ECt: 10
-\\---
+```
 
 A pomocí mého prográmku bude e-mail vypadat takto (hlavičku už znovu nepíšu, ta
 zůstane stejná):
-/---code
+
+```
 * Program Kecal spuštěn dne 6. ledna 2005 v 12:07:35.
 P: Vítám tě, nový uživateli !!!
 P: Jako první věc zmáčkni F4 a vyplň info o uživateli.
@@ -180,4 +181,4 @@ C: Co se stalo ? Povídej.
 P: Zkus se nad tím zamyslet a přijdeš na odpověď sám.
 ...
 Doba rozhovoru: 00:06:36   Napsaných vět: 10
-\\---'),
+```

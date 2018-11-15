@@ -27,7 +27,7 @@ Windows XP se mi příliš nezamlouvá. Už dlouho používám <a href="http://w
 U prohlížení zůstaneme a zaměříme se na internetové stránky. Internet Explorer
 není pro mě dostačující, a proto používám <a href="http://firefox.czilla.cz">Mozilla Firefox</a>
 [MPL, česky, 4,66 MB], který podporuje tzv. rozšíření (přídavné funkce). Využívám
-pak funkce, jako je filtrování reklam, gesta myší nebo <a href="modemisti_uz_firefox_nepusti.php">uložení každé navštívené stránky</a>.
+pak funkce, jako je filtrování reklam, gesta myší nebo <a href="{% post_url 2005-07-03-modemisti-uz-firefox-nepusti %}">uložení každé navštívené stránky</a>.
 Výhod je rozhodně více, vše se dozvíte na uvedených stránkách.
 
 Pro prohlížení formátu PDF potřebujete <a href="http://www.adobece.com/products/acrobat">Adobe Reader</a>
@@ -65,4 +65,4 @@ se spoustou filtrů je <a href="http://www.gimp.cz">GIMP</a> [FDL, česky, 10,68
 Už jenom zbývá zmínit program pro přehrávání souborů MP3 - <a href="http://www.winamp.com">Winamp</a>
 [freeware, česky (není součástí instalace), 4,35 MB]. Ovšem neznám člověka, který nezná Winamp...
 
-To je vše, hlavně nezapomeňte ještě na <a href="jak_zdarma_zabezpecit_pc.php">programy pro bezpečnost</a>.
+To je vše, hlavně nezapomeňte ještě na <a href="{% post_url 2005-05-29-jak-zdarma-zabezpecit-pc %}">programy pro bezpečnost</a>.

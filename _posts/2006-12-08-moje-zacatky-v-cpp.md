@@ -7,8 +7,7 @@ Aneb jak jsem s pomocí znalostí Javy a Céčka (které už si moc nevzpomíná
 C++. Malá poznámka na začátek - používám vývojové prostředí Microsoft Visual
 Studio 2005, ale myslím, že moje zkušenosti půjdou použít i jinde.
 
-Vstup a výstup
-==============
+## Vstup a výstup
 
 Z jazyka C si ještě pamatuji, že jsem standardní vstup a výstup na obrazovku
 řešil pomocí `scanf` a `printf`. V C++ však přibyly dvě přívětivé funkce `cin` a
@@ -23,12 +22,10 @@ hodně divit, když to bude psát, že funkci `cin` vůbec nezná. Je to tím, �
 začátku programu nepomůžeme kouzelným slovíčkem `using namespace`, tak v programu
 budeme muset používat zápis `std::cin` nebo `std::cout`.
 
-[POKRACOVANI]
-
 Jako příklad uvedu jednoduché načtení čísla zadaného uživatelem (ze vstupu) do
 proměnné *cislo* a následné vypsání tohoto čísla na obrazovku (na výstup):
 
-/---code cpp
+```cpp
 #include "stdafx.h"
 #include <iostream>
 using namespace std;
@@ -43,10 +40,9 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	return 0;
 }
-\\---
+```
 
-Třídy
-=====
+## Třídy
 
 Nebudu rozebírat, co je třída nebo objektově orientované programování, ale chci
 poukázat na to, jak se třídy v jazyku C++ píší. Jedna třída se oproti Javě zapíše
@@ -56,7 +52,7 @@ třídy. Kromě prototypů můžeme do hlavičkového souboru psát i tzv. inlin
 znamená, že můžeme obsah funkce zapsat přímo k deklaraci funkce. Více vysvětlí příklad:
 
 Soubor **Trida.h**:
-/---code cpp
+```cpp
 #pragma once
 /*
 	#pragma once zajisti, aby byla tato hlavicka
@@ -66,7 +62,7 @@ Soubor **Trida.h**:
 
 class Trida
 {
-    /*
+/*
 	v Jave se psalo private nebo public
 	pred kazdou promennou nebo funkci, ale
 	v C++ se to pise takto do bloku:
@@ -86,10 +82,10 @@ public:
 		~Trida(void);
 	*/
 }; // pozor - tady patri strednik !
-\\---
+```
 
 Soubor **Trida.cpp**:
-/---code cpp
+```cpp
 #include "StdAfx.h"
 #include "Trida.h"
 
@@ -99,10 +95,10 @@ Soubor **Trida.cpp**:
 */
 Trida::Trida(int a, int b)
 {
-    	/*
-		tady jsem schvalne deklaroval stejne nazvy promennych
-		jako ma tato trida, abych ukazal pouziti this, ktery
-		slouzi jako ukazatel na tuto tridu
+	/*
+	tady jsem schvalne deklaroval stejne nazvy promennych
+	jako ma tato trida, abych ukazal pouziti this, ktery
+	slouzi jako ukazatel na tuto tridu
 	*/
 	this->a = a;
 	this->b = b;
@@ -113,19 +109,19 @@ Trida::Trida(int a, int b)
 }
 void Trida::nastav_a(int cislo)
 {
-    	if (cislo > 0)
+	if (cislo > 0)
 		a = cislo;
 }
 
 void Trida::nastav_b(int cislo)
 {
-    	if (cislo > 0)
+	if (cislo > 0)
 		b = cislo;
 }
-\\---
+```
 
 A nakonec ukázka použití mojí nové třídy:
-/---code cpp
+```cpp
 #include "stdafx.h"
 #include <iostream>
 using namespace std;
@@ -136,20 +132,19 @@ using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-    	Trida test(3, 4);
+   	Trida test(3, 4);
 
 	cout << "A je " << test.vrat_a() << " a B je " << test.vrat_b() << endl;
 	cout << "Vysledek: " << test.vysledek() << endl;
 
 	return 0;
 }
-\\---
+```
 
 Sice je naprosto nezvyklé dělat násobení dvou čísel tak složitým způsobem, ale
 jako příklad to myslím poslouží dobře.
 
-Visual Studio 2005
-==================
+## Visual Studio 2005
 
 V tomto vývojovém prostředí se takovéto jednoduché aplikace, které běží jenom na
 příkazovém řádku dělají tak, že při vytváření nového projektu vyberete "Win32
@@ -158,4 +153,4 @@ kombinaci CTRL + F5, protože po vykonání kódu nedojde k ukončení aplikace 
 okna s příkazovým řádkem, ale čeká se na stisk klávesy.
 
 Toť vše, co jsem chtěl v tomto článku sdělit. Uvítám jakékoliv hodnocení v komentářích.
-Pokud vše půjde hladce, tak bych chtěl z tohoto příspěvku udělat seriál více článků.'),
+Pokud vše půjde hladce, tak bych chtěl z tohoto příspěvku udělat seriál více článků.

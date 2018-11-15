@@ -3,7 +3,7 @@ layout: single
 title:  "Sdílené položky z Google Readeru na vašem webu"
 date:   2007-02-06 21:08:59
 ---
-Už nějakou dobu používám webovou RSS čtečku "Google Reader":http://www.google.com/reader
+Už nějakou dobu používám webovou RSS čtečku [Google Reader](http://www.google.com/reader)
 a jsem s ní naprosto spokojen. Je to velice praktická věc - nejen, že nemusíte
 mít v počítači žádný program, ale také se hodí, když nejste zrovna doma na svém
 počítači a jste např. ve škole - to si ve volné chvíli můžete přečíst své RSS kanály
@@ -13,7 +13,7 @@ aniž by po příchodu domů na vás RSS čtečka v počítači vybafla články
 Dnes jsem přišel na zajímavou funkci tohoto mocného nástroje - libovolné články
 (např. ty, co vás zaujmou) si můžete označit jako sdílené a ty budou vypsány
 nejen na veřejné stránce (na tu můžete třeba dát někomu odkaz), ale také můžou
-být zobrazeny na vašem webu ! Výsledek takového "banneru" vidíte na tomto weblogu
+být zobrazeny na vašem webu! Výsledek takového "banneru" vidíte na tomto weblogu
 vlevo pod menu.
 
 Postup na zprovoznění je jednoduchý: nejdřív nastavte nějakým položkám, aby byly
@@ -25,11 +25,11 @@ jenom zkopírovat vygenerovaný kód do vaší stránky.
 Možná jako já zjistíte, že text v tomto "banneru" je moc velký a proto se vám
 může hodit následující kaskádový styl:
 
-/---code css
+```css
 .reader-publisher-module {
       font-size: 95% !important;
 }
-\\---
+```
 
 Na závěr jen doplním, že tyto sdílené RSS se dají použít i ve službě
-"Blogger":http://www.blogger.com/ (tuto službu provozuje také Google).'),
+[Blogger](http://www.blogger.com/) (tuto službu provozuje také Google).

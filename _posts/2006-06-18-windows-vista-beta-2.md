@@ -45,6 +45,7 @@ Aero. Horní lišta okna a jeho okraje jsou průhledné. Když najedete myší n
 tlačítko pro minimalizaci okna, začne jako by svítit:
 
 ![Okna se vzhledem Aero](/assets/images/vista_aero.jpg)
+
 ![Nabídka Start](/assets/images/vista_start.jpg)
 
 Nabídka Start také doznala změn. Pokud jste měli ve Windows XP hodně nainstalovaných
@@ -65,7 +66,9 @@ některé ze spuštěných oken v dolní liště, zobrazí se taktéž náhled (
 obrázek).
 
 ![3D Clip](/assets/images/vista_clip.jpg)
+
 ![Přepínání aplikací](/assets/images/vista_nahledy.jpg)
+
 ![Náhled okna](/assets/images/vista_nahled.jpg)
 
 Ještě ukážu poslední screenshot z Network Center. Zaujal mě totiž tím, že ukazuje

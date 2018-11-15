@@ -9,4 +9,5 @@ Ale nestěžuji si, léta to nebyly promrhaná - vím i dokonce,
 jak pracuje mobilní telefon a to se vyplatí! :wink:
 
 Zde je část mého maturitního vysvědčení, abych se mohl pochlubit se známkami:
+
 ![Část maturitního vysvědčení - známky: český jazyk a literatura 3, telekomunikačí technika 1, matematika 1, přenosová technika 1](/assets/images/maturita.jpg)

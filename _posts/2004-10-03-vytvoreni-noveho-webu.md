@@ -13,10 +13,11 @@ nové stránky.
 Vždycky jsem chtěl mít web v CSS bez pevné šířky, ale moc se mi to nedařilo.
 Tentokráte pouze s dvěmi sloupci jsem dosáhl svého a to velmi jednoduše:
 
-&lt;html&gt;
+```html
+<html>
 ...
-&lt;style type="text/css"&gt;
-&lt;!--
+<style type="text/css">
+<!--
 #hlavni_obsah {
     margin-left: 160px;
 }
@@ -29,16 +30,17 @@ Tentokráte pouze s dvěmi sloupci jsem dosáhl svého a to velmi jednoduše:
     background-color: #000066;
     color: white;
 }
---&gt;
-&lt;/style&gt; 
-&lt;body&gt;
-&lt;div id="hlavni_obsah"&gt;
-&lt;/div&gt;
-&lt;div id="vlevo"&gt;
+-->
+</style> 
+<body>
+<div id="hlavni_obsah">
+</div>
+<div id="vlevo">
 
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+</div>
+</body>
+</html>
+```
 
 Jak vidíte stačilo pouze u hlavního obsahu stránky nastavit šířku
 levého okraje a umístit absolutně levý sloupec.
