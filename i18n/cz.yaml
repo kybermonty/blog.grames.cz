@@ -1,0 +1,74 @@
+# Content
+- id: dateFormat
+  translation: "2. 1. 2006"
+- id: shortdateFormat
+  translation: "2. 1. 2006 15:04:05"
+- id: postedOnDate
+  translation: "Publikováno {{ .Count }}"
+- id: lastModified
+  translation: "(Naposledy aktualizováno v {{ .Count }})"
+- id: translationsLabel
+  translation: "Ostatní jazyky: "
+- id: translationsSeparator
+  translation: ", "
+- id: readMore
+  translation: "Pokračování"
+- id: olderPosts
+  translation: "Starší články"
+- id: newerPosts
+  translation: "Novější články"
+- id: previousPost
+  translation: "Předchozí článek"
+- id: nextPost
+  translation: "Další článek"
+- id: readTime
+  translation: "minut"
+- id: words
+  translation: "slov"
+
+
+# 404 page
+- id: pageNotFound
+  translation: "Bohužel, stránka neexistuje (chyba 404)."
+
+# Footer
+- id: poweredBy # Accepts HTML
+  translation: '<a href="http://gohugo.io">Hugo v{{ .Hugo.Version }}</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>'
+
+# Navigation
+- id: toggleNavigation
+  translation: "Přepnout menu"
+- id: languageSwitcherLabel
+  translation: "Jazyk"
+- id: gcseLabelShort
+  translation: "Vyhledávání"
+- id: gcseLabelLong
+  translation: "Vyhledávání {{ .Site.Title }}"
+- id: gcseClose
+  translation: "Zavřít"
+
+# Staticman
+- id: noComment
+  translation: "Žádný komentář"
+- id: oneComment
+  translation: "komentář"
+- id: moreComment
+  translation: "komentářů"
+- id: useMarkdown
+  translation: "Můžete použít Markdown"
+- id: yourName
+  translation: "Jméno"
+- id: yourEmail
+  translation: "E-mailová adresa"
+- id: yourWebsite
+  translation: "Web"
+
+# Delayed Disqus
+- id: show
+  translation: "Zobrazit"
+- id: comments
+  translation: "komentáře" 
+
+# Related posts
+- id: seeAlso
+  translation: "Viz také"
