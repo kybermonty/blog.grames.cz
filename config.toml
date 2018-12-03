@@ -1,0 +1,68 @@
+baseurl = "https://blog.grames.cz"
+DefaultContentLanguage = "cz"
+title = "Blog - Martin Grames"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "pygments"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+disqusShortname = "blog-martin-grames"
+googleAnalytics = "UA-343681-6"
+enableEmoji = true
+
+[permalinks]
+  post = "clanky/:filename"
+
+[Params]
+  homeTitle = "Martin Grames"
+  subtitle = "Můj blog o IT a IoT (neboli „bastlení“)"
+  #logo = "img/avatar-icon.png" # Expecting square dimensions
+  #favicon = "img/favicon.ico"
+  dateFormat = "2. 1. 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = false
+  useHLJS = false
+  socialShare = false
+  delayDisqus = false
+  showRelatedPosts = true
+  #gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+[[Params.bigimg]]
+  src = "img/home-image.jpg"
+
+[Author]
+  name = "Martin Grames"
+  website = "https://martin.grames.cz/"
+  #email = "youremail@domain.com"
+  #facebook = "username"
+  #googleplus = "+username"
+  github = "kybermonty"
+  #gitlab = "username"
+  #bitbucket = "username"
+  twitter = "kybermonty"
+  #reddit = "username"
+  #linkedin = "username"
+  #xing = "username"
+  #stackoverflow = "users/XXXXXXX/username"
+  #snapchat = "username"
+  #instagram = "username"
+  #youtube = "user/username" # or channel/channelname
+  #soundcloud = "username"
+  #spotify = "username"
+  #bandcamp = "username"
+  #itchio = "username"
+  #vk = "username"
+  #paypal = "username"
+  #telegram = "username"
+  #500px = "username"
+
+[[menu.main]]
+    name = "Kategorie"
+    url = "categories"
+    weight = 1
