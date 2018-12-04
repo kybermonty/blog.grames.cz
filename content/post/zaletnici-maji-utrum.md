@@ -4,7 +4,8 @@ title:  "Záletníci mají utrum"
 date:   2006-04-01 18:38:00
 categories: apríl
 ---
-![Myšky](/assets/images/mysky.jpg){: .align-right}
+{{< figure src="/img/mysky.jpg" alt="Myšky" class="align-right" >}}
+
 Firma Genius vynalezla nový typ myši, který doslova šokoval některé muže!
 Jedná se o typ Genius Big Eye a mezi jeho přednosti patří čtečka otisku palce
 spolu se speciálním povrchem, který pozná když lžete.

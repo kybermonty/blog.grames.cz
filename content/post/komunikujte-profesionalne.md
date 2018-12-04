@@ -20,7 +20,8 @@ možnosti v komunikaci jsou mnohem větší...
 
 ## Miranda IM
 
-![Ukázka Mirandy](/assets/images/miranda.jpg){: .align-right}
+{{< figure src="/img/miranda.jpg" alt="Ukázka Mirandy" class="align-right" >}}
+
 Miranda není komunikační program takový, jak jej běžně známe - nepoužívá nějaký svůj
 vytvořený protokol pro komunikaci, ale je to alternativní klient k mnoha protokolům.
 Můžete ho použít např. k již zmiňovanému ICQ. Protože umožňuje rozšíření pomocí

@@ -11,7 +11,9 @@ Síť LoRaWAN totiž používá 8 kanálů a tento modul umí využívat jen jed
 dle specifikace po každém zavysílání náhodně změnit kanál. Většinou ani nelze modem donutit, aby pracoval
 pouze na jednom kanále. Pak nezbývá než udělat vlastní firmware a de facto porušovat specifikaci.
 
-![](/assets/images/esp-lora1.jpg)![](/assets/images/esp-lora2.jpg)![](/assets/images/esp-lora3.jpg)
+![](/img/esp-lora1.jpg)
+![](/img/esp-lora2.jpg)
+![](/img/esp-lora3.jpg)
 
 ## Hardware
 

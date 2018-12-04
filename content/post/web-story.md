@@ -30,7 +30,8 @@ milující svoji myš mě totiž zarazila nepřirozeně tmavě zbarvená pleť
 obklopující oči – tento na venek působící efekt způsobilo buď přílišné hraní
 World of Warcraftu nebo úděsné trápení s PHP.
 
-![ASP.NET](/assets/images/aspnet.gif){: .align-right}
+{{< figure src="/img/aspnet.gif" alt="ASP.NET" class="align-right" >}}
+
 Ano, je to hořká pravda – doménou tohoto tvůrce webů jsou skripty PHP! Když
 jsem se ještě ve sladké nevědomosti piplal s PHP, ovládaly tenkrát počítačový
 trh CRT monitory. Od té doby přece jenom uplynulo hodně vody a nyní již
@@ -46,7 +47,8 @@ zdrojáky v sí šárpu (kdo neví o čem je řeč, tak C# je jazyk, který dok�
 skloubit výhody Javy a C++, přičemž výsledek opravdu stojí za to). Prostě kdo
 nezažil, nepochopí.
 
-![Visual Studio 2008](/assets/images/vs2008.png){: .align-left}
+{{< figure src="/img/vs2008.png" alt="Visual Studio 2008" class="align-left" >}}
+
 Zůstal jsem věrný Microsoftu, ještě více než Radek Hulán, protože tato rádoby
 celebrita českého internetu se živí vytvářením webových stránek v PHP. Pche,
 jak překonaný jazyk. Nyní se už jen pousmívám nad osudem těchto programátorů,

@@ -7,7 +7,7 @@ Po více než měsíci opět píšu o [Seznamu](http://www.seznam.cz/).
 V testovacím provozu je totiž
 [nová hlavní (domovská) stránka neboli homepage](http://homepage.seznam.cz/).
 
-![Seznam - Moje zprávy](/assets/images/seznam_homepage.jpg)
+![Seznam - Moje zprávy](/img/seznam_homepage.jpg)
 
 Nejvíce se mi zalíbila RSS čtečka, která vám vypisuje nové zprávy přímo na hlavní
 straně a po kliknutí na Moje zprávy se dostanete přímo do prostředí RSS čtečky,

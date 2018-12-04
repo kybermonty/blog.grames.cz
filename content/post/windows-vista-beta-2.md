@@ -33,20 +33,20 @@ obrazovkou a nelze poznat, zda se ještě něco děje nebo se to nadobro zaseklo
 Hned jako první mě zaujala zajímavá animace při startu Windows a také hezká
 přihlašovací obrazovka:
 
-![Přihlašovací obrazovka](/assets/images/vista_login.jpg)
+![Přihlašovací obrazovka](/img/vista_login.jpg)
 
 Po přihlášení zjistíte, že ikony na ploše jsou větší a vpravo je lišta, kde
 můžete umisťovat tzv. Gadgets:
 
-![Plocha ve Windows Vista](/assets/images/vista_plocha.jpg)
+![Plocha ve Windows Vista](/img/vista_plocha.jpg)
 
 Po otevření prvního okna vám určitě neunikne nový vzhled, které se jmenuje
 Aero. Horní lišta okna a jeho okraje jsou průhledné. Když najedete myší např. na
 tlačítko pro minimalizaci okna, začne jako by svítit:
 
-![Okna se vzhledem Aero](/assets/images/vista_aero.jpg)
+![Okna se vzhledem Aero](/img/vista_aero.jpg)
 
-![Nabídka Start](/assets/images/vista_start.jpg)
+![Nabídka Start](/img/vista_start.jpg)
 
 Nabídka Start také doznala změn. Pokud jste měli ve Windows XP hodně nainstalovaných
 aplikací, pak jste při rozbalení programů v nabídce Start měli zaplněný celý monitor
@@ -65,18 +65,18 @@ takový zážitek (viz druhý obrázek pod tímto odstavcem). Pokud najedete my�
 některé ze spuštěných oken v dolní liště, zobrazí se taktéž náhled (viz třetí
 obrázek).
 
-![3D Clip](/assets/images/vista_clip.jpg)
+![3D Clip](/img/vista_clip.jpg)
 
-![Přepínání aplikací](/assets/images/vista_nahledy.jpg)
+![Přepínání aplikací](/img/vista_nahledy.jpg)
 
-![Náhled okna](/assets/images/vista_nahled.jpg)
+![Náhled okna](/img/vista_nahled.jpg)
 
 Ještě ukážu poslední screenshot z Network Center. Zaujal mě totiž tím, že ukazuje
 aktuální stav připojení vašeho počítače k síti a internetu. Když vypadlo připojení
 k internetu a fungovala pouze vnitřní sít, tak se na obrázku přeškrtnul spoj mezi
 sítí a internetem. Člověk hned vidí, na čem je.
 
-![Network center](/assets/images/vista_network.jpg)
+![Network center](/img/vista_network.jpg)
 
 Tím bych výčet novinek ukončil. Je jich rozhodně víc, dalo by se systém zkoumat
 i "zevnitř" (např. že to všechno běží na .NET), ale to by bylo čtení

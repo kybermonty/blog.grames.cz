@@ -8,7 +8,7 @@ zavítala jedna z velkých osobností českého internetu -
 [Ivo Lukačovič](http://ilblog.sblog.cz/). Nikdo menší než majitel
 [Seznamu](http://www.seznam.cz/).
 
-![Ivo Lukačovič](/assets/images/lukacovic1.jpg)
+![Ivo Lukačovič](/img/lukacovic1.jpg)
 
 Přednáška se konala v nové aule [Vysoké školy báňské](http://www.vsb.cz/), přičemž
 den předem obléhaly školní chodby šikovné hostesky a rozdávaly letáčky na tuto
@@ -20,7 +20,7 @@ tomto podnikání získal. Měl plnou hlavu nápadů, ale později zjistil, že 
 důležitý nápad, ale jeho realizace. Byl úspěšný, protože se v mnoha ohledech řídil
 svou intuicí a dělat to, co ho baví.
 
-![Nová aula byla plná](/assets/images/lukacovic2.jpg)
+![Nová aula byla plná](/img/lukacovic2.jpg)
 
 Celé to začalo na ČVUT, kde ze začátku dělal strojařinu a po objevení skrytého
 talentu přešel na fakultu elektrotechniky. Tam se vlastně poprvé setkal s internetem,
@@ -40,7 +40,7 @@ Prezentace se u učitele dočkala velkého obdivu a proto asi Ivo usoudil, že s
 Ve škole Ivo poznal i dalšího neméně důležitého člověka - Pavla Zimu, který se
 staral o hardware (montoval nové PC). Dnes je pan Zima ředitelem Seznamu.
 
-![Ivo Lukačovič](/assets/images/lukacovic3.jpg)
+![Ivo Lukačovič](/img/lukacovic3.jpg)
 
 Inu Seznam pomalu rostl a dnes jenom e-mailové schránky zabírají půl petabajtů dat
 (petabyte = 1 000 000 000 000 000 bytů). Jak řekl Michael Phillips: "Dělej, co tě baví a

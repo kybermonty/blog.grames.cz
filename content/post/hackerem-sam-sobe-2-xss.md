@@ -36,7 +36,7 @@ stránky, kde vložený kód do formuláře bude umístěn přímo do stránky. 
 přesměrování celé stránky je záležitost na pár sekund! Zkouška odolnosti
 formuláře může vypadat třeba takto:
 
-![Zkouška odolnosti formuláře proti XSS](/assets/images/xss.gif)
+![Zkouška odolnosti formuláře proti XSS](/img/xss.gif)
 
 Zvláště si všimněte obsahu kolonky "Web" - tento způsob spoléhá na programátora,
 který sice ošetřil text komentáře, ale zapomněl na předchozí textové pole.

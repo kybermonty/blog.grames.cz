@@ -4,7 +4,8 @@ title:  "Moje cesta k osvícení"
 date:   2007-04-01 13:07:02
 categories: apríl
 ---
-![Tučňák](/assets/images/tux.jpg){: .align-right}
+{{< figure src="/img/tux.jpg" alt="Tučňák" class="align-right" >}}
+
 Postávám na ulici nebo chodím po domech a přesvědčuji lidi, aby se probudili a
 vybrali si tu správnou cestu. Ne, nejsem jehovista, jsem pravý nefalšovaný linuxák!
 
@@ -33,4 +34,4 @@ Pojďte se připojit také k tomuto skvělému světu Linuxu! Můžeme třeba za
 písničky - každý životní styl by měl mít i hudební styl. Doufám, že nás čeká slibná
 budoucnost, kdy bude každý počítač běžet na operačním systému Linux.
 
-[![Proč používat Linux](/assets/images/proc-linux.gif)](http://proc.linux.cz/)
+[![Proč používat Linux](/img/proc-linux.gif)](http://proc.linux.cz/)

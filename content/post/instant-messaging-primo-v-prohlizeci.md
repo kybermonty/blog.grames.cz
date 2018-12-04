@@ -8,7 +8,7 @@ přímo v prostředí e-mailu, tzn. přímo v internetovém prohlížeči. Podpo
 jsou zatím Internet Explorer 6.0+ a Firefox 1.0+, v ostatních (např. v Opeře) si
 neškrtnete a musíte si nainstalovat program [Google Talk](http://www.google.com/talk/).
 
-![Screenshot Gmailu](/assets/images/gmail_chat.jpg)
+![Screenshot Gmailu](/img/gmail_chat.jpg)
 
 Výše zmíněná funkce je potřebná v situaci, kdy jste např. v internetové kavárně
 kde není nainstalován komunikační program a Java zde rovněž není. V tomto případě

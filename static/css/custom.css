@@ -3,9 +3,11 @@ article img {
 }
 .align-left {
     float: left;
+    padding: 5px 15px 5px 0;
 }
 .align-right {
     float: right;
+    padding: 5px 0 5px 15px;
 }
 
 body {

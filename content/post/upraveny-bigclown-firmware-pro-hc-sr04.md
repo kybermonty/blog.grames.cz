@@ -9,7 +9,7 @@ PINů. Na PIN s označením Trig se na 10 μs nastaví logická jednička, tím 
 vyšle ultrazvukový signál. Na druhém PINu Echo nyní pouze změříme délku pulzu, tedy jak dlouho trvalo
 ultrazvukovému signálu se vrátit zpátky, a z toho můžeme vypočítat vzdálenost v milimetrech.
 
-![HC-SR04](/assets/images/hc-sr04.jpg)
+![HC-SR04](/img/hc-sr04.jpg)
 
 Z tohoto principu fungování vyplývá, že senzor je velmi citlivý na polohu, naklonění a tvar sledovaného
 předmětu. Pokud sledovaná plocha naproti senzoru je nakloněná nebo není rovná, tak se ultrazvukový
@@ -76,12 +76,12 @@ A už stačí jen zkompilovat a flashnout do Core modulu. Senzor HC-SR04 existuj
 pro 5 V a 3 V. S BigClown je jednodušší použít verzi pro 3 V, označovanou jako HC-SR04+. Já jsem
 šel složitější cestou a zapojil dva senzory pro 5V. 
 
-![zapojení dvou HC-SR04 s BigClown](/assets/images/hc-sr04-zapojeni.jpg)
+![zapojení dvou HC-SR04 s BigClown](/img/hc-sr04-zapojeni.jpg)
 
 Využil jsem Power Module, který na konektoru pro LED pásek má vyvedeno 5 V. Dále jsem všechny datové
 PINy prohnal přes obousměrný převodník logických úrovní.
 
-![obousměrný převodník logických úrovní](/assets/images/logic-level-converter.jpg)
+![obousměrný převodník logických úrovní](/img/logic-level-converter.jpg)
 
 Pak už jen stačí zobrazovat výstup:
 
