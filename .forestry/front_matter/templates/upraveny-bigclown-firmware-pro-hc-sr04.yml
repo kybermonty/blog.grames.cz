@@ -1,7 +1,7 @@
 ---
-label: Upravený BigClown firmware pro HC-SR04
-hide_body: 
-is_partial: 
+label: Článek
+hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
