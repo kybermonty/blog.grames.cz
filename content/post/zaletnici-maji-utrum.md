@@ -2,7 +2,7 @@
 layout: single
 title:  "Záletníci mají utrum"
 date:   2006-04-01 18:38:00
-categories: apríl
+tags: [apríl]
 ---
 {{< figure src="/img/mysky.jpg" alt="Myšky" class="align-right" >}}
 

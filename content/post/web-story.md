@@ -2,7 +2,7 @@
 layout: single
 title:  "Web story"
 date:   2008-04-01 21:03:51
-categories: apríl
+tags: [apríl]
 ---
 Sedím na svém obvyklém místě v příjemně zakouřené kavárně a mám výhled na
 město, které před pohlcením do temnoty chrání celá armáda pouličních lamp.

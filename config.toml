@@ -63,6 +63,11 @@ enableEmoji = true
   #500px = "username"
 
 [[menu.main]]
-    name = "Kategorie"
-    url = "categories"
+    name = "BigClown"
+    url = "tags/bigclown"
+    weight = 1
+
+[[menu.main]]
+    name = "ESP8266"
+    url = "tags/esp8266"
     weight = 1

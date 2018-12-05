@@ -2,7 +2,7 @@
 layout: single
 title:  "Upravený BigClown firmware pro HC-SR04"
 date:   2018-12-02 17:25:00
-categories: iot bigclown
+tags: [iot, bigclown]
 ---
 HC-SR04 je známý senzor pro měření vzdálenosti pomocí ultrazvuku. Ovládá se jednoduše pomocí dvou
 PINů. Na PIN s označením Trig se na 10 μs nastaví logická jednička, tím začneme měření a senzor

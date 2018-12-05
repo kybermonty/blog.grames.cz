@@ -2,7 +2,7 @@
 layout: single
 title:  "Moje cesta k osvícení"
 date:   2007-04-01 13:07:02
-categories: apríl
+tags: [apríl]
 ---
 {{< figure src="/img/tux.jpg" alt="Tučňák" class="align-right" >}}
 

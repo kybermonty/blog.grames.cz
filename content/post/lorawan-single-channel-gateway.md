@@ -2,7 +2,7 @@
 layout: single
 title:  "LoRaWAN single-channel gateway"
 date:   2018-07-27 08:56:00
-categories: iot esp8266
+tags: [iot, esp8266]
 ---
 Levná jednokanálová LoRaWAN gateway s WeMos D1 ESP8266 a RFM95.
 
