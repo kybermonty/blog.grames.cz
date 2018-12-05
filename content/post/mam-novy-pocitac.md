@@ -9,6 +9,8 @@ strašně rád, že konečně můžu pařit hry jako všichni ostatní :slightly
 
 Tady je složení mého nového compu:
 
+|                |                                              |
+|----------------|----------------------------------------------|
 | Procesor       | AMD Sempron 2400+ (1,67 GHz)                 |
 | Paměť          | 256 MB RAM (DDR)                             |
 | Základní deska | KT6V (integrovaná zvuk. karta 5.1 a síťovka) |

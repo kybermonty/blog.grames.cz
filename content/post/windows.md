@@ -7,7 +7,7 @@ toc:    true
 Díky těmto pár sesbíraným tipům pro Windows se v říjnu roku 2002 v časopise
 PC World objevila zmínka o mých osobních stránkách. Byl tam obrázek a tento popis:
 
-<div class="notice--success">
+<div class="alert alert-info">
 <strong>Stránka Martina Gramese</strong><br>
 <strong>martin-g.webz.cz</strong><br>
 Na této stránce najdete spoustu dalších informací, než jen samotné tipy a triky 
@@ -21,7 +21,7 @@ třeba kniha hostí, v níž se můžete zvěčnit. Nechybí ani vyhledávač, p
 stránka se spoustou informací, která rozhodně stojí za vaši návštěvu.
 </div>
 
-## Klávesové zkratky
+<h2>Klávesové zkratky</h2>
 <table>
 <tr><td>ALT + F4</td>
 <td>Zavře aktuální okno(program), když není co zavírat ukončí Windows.</td></tr>
@@ -111,7 +111,7 @@ menu přibyde funkce Otevřít v programu.
 Martin Grames
 
 
-## Registry - programy spouštěné při startu
+<h2>Registry - programy spouštěné při startu</h2>
 <p>
 Operační systém Windows se snaží automatizovat opravdu vše. Jedním z negativních výsledků je i několikanásobně delší start systému způsobený spuštěním mnoha programů, bežících poté na pozadí. Řeknete si: jednoduchá věc, podívám se do nabídky „Po spuštení“ a vše vymažu. Tak jednoduché to však není, programy své spuštění dokáží zamaskovat někdy opravdu velice mistrně - a to jak jinaž než pomocí registrů. Tam běžný uživatel zpravidla nevstoupí.
 Vy jste však uživatele zběhlí a hrátky s registry jsou vaší běžnou činností. Určite tak uvítáte následující seznam možných lokací:
@@ -124,7 +124,7 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run<br>
 </p>
 CD časopisu Computer
 
-## MSDOS.SYS
+<h2>MSDOS.SYS</h2>
 <p>Zde jsou příkazy, kterými lze změnit start počítače.
 Tyto příkazy se zadávají do souboru msdos.sys pod nápisem options.
 Tyto nastavení jsou pouze pro msdos.sys pro WIN95!</p>
@@ -181,8 +181,9 @@ bootovat pod starým operačním systémem,0 nikoliv</td></tr>
 <td>Nastavení 1 umožní Nouzový režim se síťovými komponentami</td></tr>
 </table>
 
-Ukázka souboru msdos.sys:
-```
+<p>Ukázka souboru msdos.sys:</p>
+
+<pre>
 [Paths]
 UninstallDir=C:\
 WinDir=C:\WINDOWS
@@ -194,11 +195,11 @@ BootGUI=1
 Network=0
 BootMulti=1
 BootMenu=1
-```
+</pre>
 
 CD časopisu Computer
 
-## Krotíme Scandisk
+<h2>Krotíme Scandisk</h2>
 <p>
 Po tvrdém(nouzovém) restartu počítače spustí operační systém
 program Scandisk, který má odhalit možné chyby. Zkušenější
@@ -221,7 +222,7 @@ zrušit vlastnost Jen ke čtení, jinak by nebylo možné změnu uložit.
 </p>
 Časopis Computer
 
-## Vypínáme Windows
+<h2>Vypínáme Windows</h2>
 <p>
 Často se objevuje dotaz, jakým způsobem lze vypnout Windows 95/98
 jinak, než tradičním způsobem přes nabítku Start. Nabízím vám
@@ -255,7 +256,7 @@ tyto programy:<br>
 </p>
 Časopis Computer
 
-## Autorun u CD-ROM? Už ne!
+<h2>Autorun u CD-ROM? Už ne!</h2>
 <p>
 Potlačení této (někdy užitečné) funkce provedeme následujícím
 způsobem:<br>
@@ -264,7 +265,7 @@ Poté zakažte funkci Automatické oznámení.
 </p>
 Časopis Computer
 
-## Skrytí ovládacích panelů
+<h2>Skrytí ovládacích panelů</h2>
 <p>
 Chcete-li nezkušeným uživatelům skrýt některé položky ovládacích
 panelů, jejichž prostřednictvím by mohli měnit důležitá nastavení
@@ -315,7 +316,7 @@ v adresáři Windows. Soubor uložte a restartujte systém.<BR>
 </p>
 Časopis Computer
 
-## Změňte si titulek Internet Exploreru (verze 4/5)
+<h2>Změňte si titulek Internet Exploreru (verze 4/5)</h2>
 
 Nelíbí se Vám titulek okna Internet Exploreru? Chtěli byste si ho změnit
 na něco inteligentnějšího, než je obligátní název Microsoft Internet
