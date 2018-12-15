@@ -19,7 +19,7 @@ enableEmoji = true
 [Params]
   homeTitle = "Martin Grames"
   subtitle = "Můj blog o IT a IoT (neboli „bastlení“)"
-  logo = "img/avatar-icon.png" # Expecting square dimensions
+  #logo = "img/avatar-icon.png" # Expecting square dimensions
   #favicon = "img/favicon.ico"
   dateFormat = "2. 1. 2006"
   commit = false
