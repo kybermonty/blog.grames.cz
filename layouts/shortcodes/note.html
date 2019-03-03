@@ -1,0 +1,12 @@
+<div class="alert alert-{{ .Get 0 }} note" role="alert">
+  <div class="note-content">
+    {{- if len .Inner -}}
+      {{- if (index .Params 1) -}}
+      <strong>{{- .Get 1 -}}</strong><br>
+      {{- end -}}
+      {{- .Inner | markdownify -}}
+    {{- else -}}
+      {{- .Get 1 -}}
+    {{- end -}}
+  </div>
+</div>
