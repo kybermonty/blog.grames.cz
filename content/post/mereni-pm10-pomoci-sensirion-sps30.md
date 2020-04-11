@@ -9,10 +9,10 @@ samozřejmě zajímaly možnosti měření prachových částic. Z hlediska kval
 částice (PM - particulate matter) menší než 10 μm, označované jako PM<sub>10</sub>. Profesionální
 měřící stanice kvality ovzduší stojí kolem milionu korun a různé venkovní senzory prachu stojí
 několik tisíc, proto mě zaujala novinka od firmy Sensirion, která nabízí levné řešení (na
-(SOS electronic)[https://www.soselectronic.cz/products/sensirion/sps30-2-304234] aktuálně stojí
+[SOS electronic](https://www.soselectronic.cz/products/sensirion/sps30-2-304234) aktuálně stojí
 tisíc korun).
 
-Čidlo (SPS30)[https://www.sensirion.com/en/environmental-sensors/particulate-matter-sensors-pm25/]
+Čidlo [SPS30](https://www.sensirion.com/en/environmental-sensors/particulate-matter-sensors-pm25/)
 je malé (41 x 41 x 12 mm<sup>3</sup>) a bezúdržbové - nemusí se ručně čistit nebo vyměňovat filtry,
 vzduch koluje uvnitř senzoru pomocí větráčku a prachové částice jsou měřeny opticky (komůrka se
 prosvítí laserem a počítá se rozptyl). Počet μg/m<sup>3</sup> (mass concentration) měří pro
@@ -22,10 +22,10 @@ takže se nehodí pro provoz na baterky a rozsah provozních teplot od -10 do +6
 limitující pro měření v zimě. Ovšem pokud je mírná zima a nejste ve vyšších nadmořských výškách,
 tak to nemusí být problém.
 
-Jako mikrokontrolér s rádiem jsem použil (Core Module)[https://obchod.hardwario.cz/core-module/]
-z mé oblíbené (stavebnice HARDWARIO)[https://www.hardwario.com/cs/kit/]. Pro propojení je ještě
-potřeba jeden (konektor)[https://www.soselectronic.cz/products/jst/zhr-5-112980] a pět
-(nakrimpovaných káblíků)[https://www.soselectronic.cz/products/jst/aszhszh28k152-307294]. Káblíky
+Jako mikrokontrolér s rádiem jsem použil [Core Module](https://obchod.hardwario.cz/core-module/)
+z mé oblíbené [stavebnice HARDWARIO](https://www.hardwario.com/cs/kit/). Pro propojení je ještě
+potřeba jeden [konektor](https://www.soselectronic.cz/products/jst/zhr-5-112980) a pět
+[nakrimpovaných káblíků](https://www.soselectronic.cz/products/jst/aszhszh28k152-307294). Káblíky
 už jsou připravené, jenom se zasunou do tělesa konektoru. Senzor komunikuje s mikrokontrolérem
 přes I²C sběrnici a potřebuje 5V, takže je nejjednodušší použít poslední revizi Core Module, kde je
 k tomu na desce vyveden pin.
@@ -39,11 +39,11 @@ k tomu na desce vyveden pin.
 | GND (5) | GND |
 
 Pro SPS30 jsem napsal a otestoval
-(ovladač)[https://github.com/bigclownlabs/bcf-sdk/blob/master/bcl/src/bc_sps30.c],
+[ovladač](https://github.com/bigclownlabs/bcf-sdk/blob/master/bcl/src/bc_sps30.c),
 je již v SDK a také jsem připravil firmware
-(bcf-radio-pm-sensor)[https://github.com/bigclownprojects/bcf-radio-pm-sensor].
-
-Měřím to nakonec co 10 minut a SPS30 mám puštěný 30 sekund, přičemž se to jenom vyfouká a beru poslední hodnotu.
+[bcf-radio-pm-sensor](https://github.com/bigclownprojects/bcf-radio-pm-sensor). Měření probíhá
+každých 10 minut a senzor v každém intervalu běží 30 sekund. Delší měření je kvůli tomu, aby se
+stihl dostatečně vyfoukat starý vzduch a nasát nový.
 
 První verze mé měřící stanice kvality ovzduší vypadá takto:
 
