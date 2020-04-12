@@ -18,12 +18,13 @@ Např. pokud chceme měřit vzdálenost auta od stěny garáže, tak je potřeba
 na voze, třeba SPZ.
 
 Ve firmware BigClown je připraven ovladač, ale bohužel funguje jen s jedním senzorem (na PINu P8
-pro Echo a P9 pro Trig). Využívá totiž hardwarové přerušení pro čekání na změnu stavu PINu Echo, aby neblokoval vykonávání programu. Abych toto omezení na určité GPIO zrušil, přepsal jsem ovladač
+pro Echo a P9 pro Trig). Využívá totiž hardwarové přerušení pro čekání na změnu stavu PINu Echo,
+aby neblokoval vykonávání programu. Abych toto omezení na určité GPIO zrušil, přepsal jsem ovladač
 na softwarový časovač. Tím se zablokuje program na maximálně 30 ms. Myslím, že to je přípustná daň
-za možnost využití zakéhokoliv GPIO.
+za možnost využití jakéhokoliv GPIO.
 
-Upravený ovladač jsem pushnul do větve [multiple-hc_sr04](https://github.com/bigclownlabs/bcf-sdk/tree/multiple-hc_sr04). Aplikaci s tímto upraveným SDK lze
-vytvořit pomocí pár příkazů:
+Upravený ovladač jsem pushnul do větve [multiple-hc_sr04](https://github.com/bigclownlabs/bcf-sdk/tree/multiple-hc_sr04).
+Aplikaci s tímto upraveným SDK lze vytvořit pomocí pár příkazů:
 
 - git clone https://github.com/bigclownlabs/bcf-skeleton
 - cd bcf-skeleton
@@ -76,7 +77,7 @@ A už stačí jen zkompilovat a flashnout do Core modulu. Senzor HC-SR04 existuj
 pro 5 V a 3 V. S BigClown je jednodušší použít verzi pro 3 V, označovanou jako HC-SR04+. Já jsem
 šel složitější cestou a zapojil dva senzory pro 5V. 
 
-![zapojení dvou HC-SR04 s BigClown](/img/hc-sr04-zapojeni.jpg)
+{{< figure src="/img/hc-sr04-zapojeni.jpg" >}}
 
 Využil jsem Power Module, který na konektoru pro LED pásek má vyvedeno 5 V. Dále jsem všechny datové
 PINy prohnal přes obousměrný převodník logických úrovní.
