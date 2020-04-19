@@ -77,7 +77,7 @@ A už stačí jen zkompilovat a flashnout do Core modulu. Senzor HC-SR04 existuj
 pro 5 V a 3 V. S BigClown je jednodušší použít verzi pro 3 V, označovanou jako HC-SR04+. Já jsem
 šel složitější cestou a zapojil dva senzory pro 5V. 
 
-{{< figure src="/img/hc-sr04-zapojeni.jpg" >}}
+{{< figure src="/img/hc-sr04-zapojeni.jpg" alt="Zapojení dvou HC-SR04 s BigClown" >}}
 
 Využil jsem Power Module, který na konektoru pro LED pásek má vyvedeno 5 V. Dále jsem všechny datové
 PINy prohnal přes obousměrný převodník logických úrovní.

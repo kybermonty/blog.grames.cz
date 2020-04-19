@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Měření PM10 pomocí Sensirion SPS30"
-date: 2020-04-11T09:17:38+01:00
+date: 2020-04-11T09:17:38+02:00
 tags: [iot, bigclown]
 ---
 Žiji v Ostravě, kde je velká prašnost z místního průmyslu pro výrobu a zpracování oceli, tak mě
@@ -52,7 +52,7 @@ První verze mé měřící stanice kvality ovzduší vypadá takto:
 
 Celkem dost jsem tunil zobrazení v Grafaně:
 
-{{< figure link="/img/sps30-grafana1.png" thumb="-small" >}}
+{{< figure link="/img/sps30-grafana1.png" thumb="-small" alt="Zobrazení PM10 v Grafaně" >}}
 
 Barevné čáry v grafu jsou thresholdy pro jednotlivé stupně kvality ovzduší, nad červenou už je
 velmi špatná. Bohužel hodnoty v čase hodně skáčou, různě foukne vítr a je to hned jinak apod.,
@@ -64,7 +64,7 @@ Dále jsem začal sbírat data z okolních profesionálních stanic, abych měl 
 grafu je zelená čára ze SPS30 a žlutá ze stanice
 [Ostrava-Radvanice OZO](http://portal.chmi.cz/files/portal/docs/uoco/web_generator/aqindex_slide3/mp_TOROK_CZ.html):
 
-{{< figure link="/img/sps30-grafana2.png" thumb="-small" >}}
+{{< figure link="/img/sps30-grafana2.png" thumb="-small" alt="Graf s porovnáním" >}}
 
 Samozřejmě ne vždy je to takto podobné, záleží na směru větru apod. S výsledky jsem ale spokojen a
 senzor Sensirion SPS30 mohu jen doporučit.
