@@ -6,31 +6,27 @@ tags: [iot, bigclown]
 ---
 Již delší dobu jsem chtěl automaticky ovládat předokenní rolety s motorem Somfy
 RTS, ale nechtělo se mi do toho, protože se používá plovoucí kód a řešení tím
-pádem není jednoduché. V lednu tohoto roku [Martin Hubáček]
-(https://twitter.com/hubmartin) publikoval [video]
-(https://www.youtube.com/watch?v=sbqMqb6FVMY), kde ovládá zařízení na 433 MHz.
+pádem není jednoduché. V lednu tohoto roku [Martin Hubáček](https://twitter.com/hubmartin)
+publikoval [video](https://www.youtube.com/watch?v=sbqMqb6FVMY), kde ovládá zařízení na 433 MHz.
 Pro zjištění vysílaného kódu z originálního ovladače použil nástroj
 [Universal Radio Hacker](https://github.com/jopohl/urh) a zkopírovaný kód
-vysílá z levného čínského modulu připojeného k [BigClown Core Module]
-(https://shop.bigclown.com/core-module/). Nevypadalo to moc složitě, tak jsem
+vysílá z levného čínského modulu připojeného k
+[BigClown Core Module](https://shop.bigclown.com/core-module/). Nevypadalo to moc složitě, tak jsem
 zkusil zkopírovat kód z jednoduchého zařízení na 433 MHz a vážně to fungovalo.
 To mě nakoplo, že bych měl konečně zkusit i Somfy.
 
 Naštěstí jsou pohony Somfy rozšířené po celém světě a našel jsem několik postupů,
 jak je ovládat pomocí vlastního zařízení:
 
-- [nejjednodušší cesta]
-  (http://somfy-domotica.blogspot.com/2014/03/wiring-somfy-telis-4.html)
+- [nejjednodušší cesta](http://somfy-domotica.blogspot.com/2014/03/wiring-somfy-telis-4.html)
   je vzít originální ovladač a jenom simulovat stisky tlačítek
 - [lze zakoupit](http://www.rfxcom.com/epages/78165469.sf/en_GB/?ObjectPath=/Shops/78165469/Products/18103)
   krabičku RFXtrx433XL, která umí ovládat různé zařízení na 433 MHz
 - můžeme si poskládat vlastní univerzální ovladač s Arduino Mega a nahrát tam
   uzavřený firmware [RFlink](http://www.rflink.nl/blog2/)
-- existuje i oficiální gateway [Somfy Tahoma]
-  (https://www.somfy.cz/produkty/automatizace-domacnosti/tahoma),
+- existuje i oficiální gateway [Somfy Tahoma](https://www.somfy.cz/produkty/automatizace-domacnosti/tahoma),
   ale ta stojí přes 14 tisíc
-- protokol Somfy RTS už byl [rozlousknut]
-  (https://pushstack.wordpress.com/somfy-rts-protocol/)
+- protokol Somfy RTS už byl [rozlousknut](https://pushstack.wordpress.com/somfy-rts-protocol/)
   a existuje firmware pro [Arduino](https://github.com/Nickduino/Somfy_Remote),
   [NodeMCU (ESP8266)](https://nodemcu.readthedocs.io/en/master/en/modules/somfy/)
   nebo [Raspberry Pi](https://github.com/Nickduino/Pi-Somfy)
@@ -51,8 +47,7 @@ kartu v Raspberry Pi.
 {{< note "warning" >}}
 Vysílač sice pracuje na frekvenci 433,92 MHz a pohon
 Somfy na 433,42 MHz, ale při vysílání do pár metrů to nevadí. Pokud by s tím byl
-problém, je potřeba [odpájet a vyměnit oscilátor]
-(https://github.com/Nickduino/Pi-Somfy/blob/master/README.md).
+problém, je potřeba [odpájet a vyměnit oscilátor](https://github.com/Nickduino/Pi-Somfy/blob/master/README.md).
 {{< /note >}}
 
 Pro ovládání se využívá tento topic:  

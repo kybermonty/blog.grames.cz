@@ -71,3 +71,6 @@ enableEmoji = true
     name = "ESP8266"
     url = "tags/esp8266"
     weight = 1
+
+[markup.goldmark.renderer]
+  unsafe = true
